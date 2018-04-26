@@ -1,0 +1,75 @@
+.popup
+{
+    border: 3px dashed red;
+    width: 600px;
+    height: 300px;
+    position: fixed;
+    top: 150px;
+    left: 400px;
+    display: none;
+}
+
+.Close
+{
+float:right;
+}
+
+.Reg
+{
+  margin-left: 40%;
+  margin-top: 30px;
+}
+
+.popupPic
+{
+    float: left;
+    width: 150px;
+    margin-left: 40px;
+}
+
+.rotator
+{
+    width:100%;
+    background-color: gray;
+}
+
+.picrotator
+{
+    width:600px;
+    margin-left: 20%;
+}
+
+.Arrow
+{
+    width:100px;
+    margin-top: 85px;
+    cursor: pointer;
+}
+
+.rightarrow
+{
+    float:right;
+    transform: rotate(180deg);
+}
+
+.leftarrow
+{
+    float:left;
+}
+
+#CloseForm
+{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(1, 0, 78);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+

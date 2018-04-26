@@ -1,0 +1,181 @@
+body
+{
+    background-color: rgb(6, 6, 70);
+}
+#myCarousel
+{
+    margin: 0px;
+}
+.container
+{
+    padding: 0px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 300px;
+    margin:auto;
+}
+
+
+body {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 6, 37);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active1 {
+    background-color: rgba(15, 29, 155, 0.356);
+}
+
+.popup
+{
+    border: 3px dashed rgb(0, 0, 0);
+    background-color: rgb(23, 10, 100);
+    width: 600px;
+    height: 300px;
+    position: fixed;
+    top: 150px;
+    left: 400px;
+    display: none;
+    z-index: 20;
+}
+
+.Close
+{
+float:right;
+}
+
+.Reg
+{
+  margin-left: 100%;
+  margin-top: 30px;
+}
+
+.popupPic
+{
+    float: left;
+    width: 300px;
+    margin-left: 25%;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(1, 0, 78);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #132636}
+  
+  .button:active {
+    background-color: #2bc9e6;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .regBtn
+  {
+      margin-left: 35%;
+  }
+
+  .myCarInd
+  {
+      margin-left: 0%
+  }
+
+  .Close
+  {
+      width: 75px;
+  }
+
+  #form
+  {
+    display: none;
+  }
+
+  .div1
+  {
+      width: 80%;
+      margin: 10%;
+  }
+
+  .mainVideo
+  {
+      margin-left: 15%;
+  }
+  .contentText
+  {
+   text-align: justify;  
+  }
+
+  .contentPict
+  {
+      float: left;
+      margin: 20px;
+  }
+
+  .footer
+  {
+      width: 100%;
+      background-color: black;
+      height: 230px;
+      text-align: center;
+  }
+
+  .head
+  {
+      color:black;
+  }
+  /*Background*/
+
+  body, html {padding:0; margin:0} 
+  body {background:#232323; color:#fff}
+  .opaque {position:absolute; top:0; left:0; right:0; bottom:0; opacity:0; background:#d2d6f1;}
+  .lt-ie9 .opaque {display:none;}
+  .feature {position:fixed; top:0; z-index:0; width:100%; padding-top:50%; background: url(https://wallpapers.walldevil.com/wallpapers/w09/preview/alien-movie-aliens-alien-isolation.jpg) center center no-repeat;
+      -webkit-background-size:150%;
+         -moz-background-size:150%;
+           -o-background-size:150%;
+              background-size:150%;
+      -webkit-box-shadow: 0 -50px 20px -20px #232323 inset;
+         -moz-box-shadow: 0 -50px 20px -20px #232323 inset;
+              box-shadow: 0 -50px 20px -20px #232323 inset;
+    }
+  .content {position:relative; z-index:1; padding-top:45%; width:90%; margin:0 auto;}
+  
+  @media only screen and (min-width:36.250em) {
+    .content {width:60%; padding-top:35% }
