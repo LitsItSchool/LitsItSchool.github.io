@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My cars</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/basicelement.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header nav">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-lg fa-bars"></i>
+            </button>
+            <a onclick="ToMain();" class="navbar-brand page-scroll" href="index.html">
+                <i class="fa fa-male"></i>  <span class="light">Auto</span>Info   
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+               
+                <li>
+                    <a onclick="ToAbout();" class="page-scroll" href="about.html">About</a>
+                </li>
+                <li>
+                    <a onclick="ToCars();" class="page-scroll" href="cars.html">Cars</a>
+                </li>  
+                <li>
+                    <a  data-toggle="modal" data-target="#myModal" class="page-scroll" href="#registration">Registration</a>
+                </li>
+                <li>
+                    <a onclick="ToContact();" class="page-scroll" href="contact.html">Contact</a>
+                </li>
+         
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- About Section -->
+<section id="about" class="container-fluid content-section">
+    <!-- 3 Section -->
+    <section class="container-fluid content-section about text-center">
+        <div class="col-lg-7 col-lg-offset-2">
+            <h2>ABOUT SITE</h2>
+            <p>Информация про сайт и про вас</p>
+        </div>
+    </section>
+
+    <div class="col-md-4 col-gray2">
+        <h3><i class="fa fa-picture-o fa-2x" style="position:absolute; top:25px; right:20px;"></i>Dodge Charger 1970</h3>
+        <img style="width:340px;" src="https://assets.hemmings.com/story_image/448351-1000-0@2x.jpg?rev=2" alt="">
+        <p>The idea for its creation originated with the beginning of the era of "muscle car", when in 1964 was released Pontiac GTO, which was a conventional coupe, equipped with a powerful 335-horsepower engine.
+            This car is famous for its use in many places. She became known in many automobile museums, films, in large corners of the world. The cost of such a machine at the moment is $ 100,000. This is a lot for such a legendary rarity, and besides it became the birth of the company "Dodge".
+            </p>
+    </div>
+    <div class="col-md-4 col-gray">
+        <h3><i class="fa fa-desktop fa-2x" style="position:absolute; top:25px; right:20px;"></i>Ford GT 40</h3>
+        <img style="width:340px;" src="http://www.a777aa77.ru/ford/1966-ford-gt40.jpg" alt="">
+        <p>"Ford GT 40". This is a sports car designed to win at the "Ferrari" at long distances. The car was called GT (short for Gran Turismo), and added 40, which showed his full height of 40 dime, as required by the rules. The price of this drag-car for 2005 was $ 150,000. Their production began in the distant 1965 in which the founder of Ford, Henry Ford wanted his new car to participate in Le-Mane. It was specially designed for wins in long distance races against the "Ferrari" (who won Le Mans six times in a row from 1960 to 1965). GT40 P 1075 was the first car to win in Le Mans twice (1968 and 1969); This car used the Gurney-Weslake engine of a special alloy. Used engines of Ford V8 large volume (4.7 liters and 7 liters), compared with the Ferrari V12, 3.0 liters or 4.0 liters. 
+        </p>
+    </div>
+    <div class="col-md-4 col-gray2">
+        <h3><i class="fa fa-code fa-2x" style="position:absolute; top:25px; right:20px;"></i>Mercedes-Benz SLR McLaren</h3>
+        <img style="width:340px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mercedes-Benz_SLR_McLaren_%288615973055%29_%28cropped%29.jpg/1200px-Mercedes-Benz_SLR_McLaren_%288615973055%29_%28cropped%29.jpg" alt="">
+        <p>Mercedes-Benz SLR McLaren.
+            This supercar, produced jointly by the German company Mercedes-Benz and the British manufacturer McLaren Automotive from 2003 to 2009. It is an acronym and stands for "Sport Leicht Rennsport" (with it "sporty lightweight racing"). The body of this machine is made entirely of carbon fiber, the only part of the body made of aluminum is the motor frame. The price of a supercar since the sale has tripled. 
+            All these machines were used in many films, for example, in the film "Fast and Furious". In the film, they are used at every step, as the characters of the film do not save on their cars, although the price of these "crumbs" is considerable. In our country there are only one such machines. On any site they can be found at a price of 75% of the initial price. I would be very pleased if I could get one of these three cars or else dig into such in my car repair shop.
+            </p>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <p>Copyright &copy; Your Website 2018<br>
+            We <i class="fa fa-heart"></i> <a href="https://www.google.com.ua/">Are the best</a></p>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="color:black; margin-left:5%;">Registration</h4>
+        </div>
+        <div class="form-group">
+            <label for="usr" style="color:black; margin-left:5%;">Name:</label>
+            <input type="text" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="usr" style="color:black; margin-left:5%;">E-Mail:</label>
+            <input type="text" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="pwd" style="color:black; margin-left:5%;">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+          </div>
+        <div class="modal-footer">
+          <button onclick="Registrate();" type="button" class="btn btn-default" data-dismiss="modal">Registrate</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/SmoothScroll.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/basicelement.js"></script>
+</body>
+</html>
