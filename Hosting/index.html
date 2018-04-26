@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+
+
+<title>VimeVideo</title>
+
+
+
+
+  <style>
+.pagination {
+    display: inline-block;
+    margin-left: 35%;
+}
+
+.pagination a {
+    color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+</style>
+
+
+
+
+
+<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="jquery/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+
+<style type="text/css">
+* {margin: 0; padding: 0;} /* обнуляем отступы */
+body {
+text-align: center; /* выравниваем все содержимое body по центру */
+}
+</style>
+
+
+</head>
+<body>
+  <!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home Page</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">My channel</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">translation</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Share Video</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Media <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">news</a>
+        <a href="#" class="w3-bar-item w3-button">Music</a>
+        <a href="#" class="w3-bar-item w3-button">Contacts</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+  <div class="did">
+
+    <div class="container">
+    <img src="video/osg.png">
+  </div>
+<br>
+<br>
+
+<div class="container">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">check in</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">check in</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">Sign Up</button>
+  </form>
+</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<div class="did">
+
+  
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="jquery.backgroundvideo.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      var videobackground = new $.backgroundVideo($('body'), {
+        "align": "centerXY",
+        "width": 1280,
+        "height": 720,
+        "path": "video/",
+        "filename": "Lake",
+        "types": ["mp4","ogg","webm"],
+        "preload": true,
+        "autoplay": true,
+        "loop": true
+      });
+    });
+  </script>
+
+      <!--placeholder это текст в панели password или text который нельзя отредактировать но он пропадает
+    когда вы напишите в панеле текст-->
+<br>
+<br>
+    <div class="container">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Welcome to Vime Video</button>
+  <div id="demo" class="collapse">
+    <br>
+    <h5 style="color:white">All videos are taken from the social YouTube set,
+    Our site is well optimized and runs on weak computers,
+    Watch the video 5 times faster!</h5>
+  </div>
+</div>
+  <br />
+  <br />
+          <div>
+      <h2 style="color:white">Video Hosting</h2>
+
+          
+  </div> 
+  </form>
+  <br />
+    <br>
+          <input type="text" id="pole1" placeholder="Search Videos" />
+  <br />
+  <br />
+  <iframe width="520" height="360" src="https://www.youtube.com/embed/kCsG7nAVXzM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="520" height="360" src="https://www.youtube.com/embed/V64sfp1mbfM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="520" height="360" src="https://www.youtube.com/embed/hYgF3yHnztc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="520" height="360" src="https://www.youtube.com/embed/qCuEUHYbjjY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="520" height="360" src="https://www.youtube.com/embed/cl27w1hsswY?list=PLsFqPu2RPBnv4XHEsJOj2XuVtlsfHGlEH" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="520" height="360" src="https://www.youtube.com/embed/69-YYa_oMnA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="520" height="360" src="https://www.youtube.com/embed/9ivQhstwTis" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="520" height="360" src="https://www.youtube.com/embed/sN_HP0Yhdo8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+ <iframe width="520" height="360" src="https://www.youtube.com/embed/FIXm7oGoUwc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>        
+  <br>
+  <br>
+<div class="container">
+   <div class="pagination">
+     <a href="#"class="active">1</a>
+     <a href="index1.html">2</a>
+     <a href="index2.html">3</a>
+     <a href="index3.html">4</a>
+     <a href="index4.html">5</a>
+    <a href="index4.html">6</a>
+    <a href="index1.html">&raquo;</a>
+   </div>
+</div>
+  <br>
+  <br>
+  </div>
+</body>
+</html>

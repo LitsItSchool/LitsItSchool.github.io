@@ -1,0 +1,28 @@
+.mainblock
+{
+    border: 1px solid white;
+}
+
+.logo
+{
+    border: 1px solid white;
+    background-color: black;
+}
+
+.button
+{
+    width: 300px;
+    height: 30px;
+}
+
+.did {
+width: 100%; /* ширина основного блока */
+height: 100%; /* высота для наглядности */
+margin: 0 auto; /* задаем отступ слева и справа auto чтобы сработало выравнивание по центру */
+}
+
+iframe
+{
+    border: 0px solid red;
+    border-radius: 50px;
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>My cars</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/basicelement.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header nav">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-lg fa-bars"></i>
+            </button>
+            <a onclick="ToMain();" class="navbar-brand page-scroll" href="index.html">
+                <i class="fa fa-male"></i>  <span class="light">Auto</span>Brand  
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+               
+                <li>
+                    <a onclick="ToAbout();" class="page-scroll" href="about.html">About</a>
+                </li>
+                <li>
+                    <a onclick="ToCars();" class="page-scroll" href="cars.html">Cars</a>
+                </li>  
+                <li>
+                    <a  data-toggle="modal" data-target="#myModal" class="page-scroll" href="#registration">Registration</a>
+                </li>
+                <li>
+                    <a onclick="ToContact();" class="page-scroll" href="contact.html">Contact</a>
+                </li>
+         
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Contact Section -->
+<section id="contact " class="container content-section text-center">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>WHY EXACTLY WE</h2>
+            <img width="300px" src="http://www.carlogos.org/logo/Mercedes-Benz-logo-2011-1920x1080.png" alt="">
+            <p>With the help of our website you can find out detailed information about supercars of the 20-21 centuries and also all changes that have been made during such a long time. This site will store information about the top three leaders at the moment.</p>
+        </div>
+</section>
+<!-- Footer -->
+<footer>
+    <div class="container text-center">
+        <p>Copyright &copy; Your Website 2018<br>
+             <i class="fa fa-heart"></i> <a href="https://www.instagram.com/alxndr_albul/?hl=ru">Contact</a></p>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title" style="color:black; margin-left:5%;">Registration</h4>
+        </div>
+        <div class="form-group">
+            <label for="usr" style="color:black; margin-left:5%;">Name:</label>
+            <input type="text" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="usr" style="color:black; margin-left:5%;">E-Mail:</label>
+            <input type="text" class="form-control" id="usr">
+          </div>
+          <div class="form-group">
+            <label for="pwd" style="color:black; margin-left:5%;">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+          </div>
+        <div class="modal-footer">
+          <button onclick="Registrate();" type="button" class="btn btn-default" data-dismiss="modal">Registrate</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/SmoothScroll.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="js/basicelement.js"></script>
+</body>
+</html>

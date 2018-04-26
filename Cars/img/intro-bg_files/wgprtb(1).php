@@ -1,0 +1,1 @@
+obtainEPurl({"response":{"status":"success","message":"ok","tnext":"0","tbopop":"0","rl":"60","offer":{"has_offer":"yes","link":"http:\/\/goto.peak-serving.com\/?&version=1&id=15240766106471787854097784&tid=4143&t=imp&end=1"}}});
