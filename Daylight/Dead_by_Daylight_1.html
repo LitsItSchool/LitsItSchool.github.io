@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		/*
+			var slider_dead_by_daylight = 1;
+			window.onload = function () { setTimeout(frout, 5000); }
+			function frout() {
+			slider_dead_by_daylight++;
+			if (slider_dead_by_daylight>8) {slider_dead_by_daylight=0;}
+				switch(slider_dead_by_daylight) {
+				case 1:
+					document.getElementById('img').src = "SITE/1.jpg";
+					break;
+				case 2:
+					document.getElementById('img').src = "SITE/2.jpg";
+					break;
+				case 3:
+					document.getElementById('img').src = "SITE/3.jpg";
+					break;
+				case 4:
+					document.getElementById('img').src = "SITE/4.jpg";
+					break;
+				case 5:
+					document.getElementById('img').src = "SITE/5.jpg";
+					break;
+				case 6:
+					document.getElementById('img').src = "SITE/6.jpg";
+					break;
+				case 7:
+					document.getElementById('img').src = "SITE/7.jpg";
+					break;
+				case 8:
+					document.getElementById('img').src = "SITE/8.jpg";
+					break;					
+				}
+			setTimeout(frout, 5000);
+			}
+			*/
+		</script> 
+
+	<style type="text/css">
+	body{
+		margin: 0 auto;
+		font-family: arial;
+	}
+	.background{
+		background-image: url(SITE/pig.png);
+		width: 100px;
+		height: 900px;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+
+
+    }
+    
+
+
+	.header{
+		opacity: 0.9; 
+        background: #000000; 
+		background: -webkit-linear-gradient(left, #000000 0%,#0c1016 100%); 
+		background: linear-gradient(to right, #000000 0%,#0c1016 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0c1016',GradientType=1); 
+		position: relative;
+		left: -700px; 
+		width: 1470px;
+		height: 100px; 
+	}
+	.logo{
+		width: 300px;
+		height: 85px;
+		position: relative;
+		margin-top: 7px;
+		margin-left: 150px;
+	}
+	.header-menu{
+		position: relative;
+		left: 100px;
+		top: -65px;
+		width: 560px;
+		height: 30px;
+	}
+	.header-menu1{
+		transition-duration: 0.2s;
+		font-size: 16px;
+		width: 100px;
+		position: relative;
+		top: -2px;
+		margin: 10px;
+		color: white;
+		float: left;
+
+	}
+	.header-menu2{
+		transition-duration: 0.2s;
+		width: 180px;
+		position: relative;
+		top: -2px;
+		margin: 10px;
+		color: white;
+		float: left;
+
+	}
+	.href{
+		color: white;
+		text-decoration: none;
+		transition-duration: 0.2s;
+	}
+	.href:hover{
+		text-decoration: underline;
+		transition-duration: 0.2s;
+	}
+	.slider-bar{
+		border-radius: 20px;
+		position: relative;
+		margin-left: -610px;
+		margin-top: 50px;
+		width: 960px;
+		height: 400px;
+	}
+	.menu{
+		border: 1px solid blue;
+		opacity: 0.5; 
+        background: #000000; 
+		background: -webkit-linear-gradient(left, #000000 0%,#0c1016 100%); 
+		background: linear-gradient(to right, #000000 0%,#0c1016 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0c1016',GradientType=1); 
+		border-radius: 20px;
+		position: relative;
+		left: 470px;
+		top: 0px;
+		width: 290px;
+		height: 745px;
+	}
+	.menu-button1 {
+		border: 1px solid blue;
+		width: 100px;
+		position: relative;
+		margin: 10px;
+		left: 35px;
+		opacity: 1;
+		background-color: #1f293b;
+		-moz-border-radius: 23px;
+		-webkit-border-radius: 23px;
+		border-radius: 23px;
+		display: inline-block;
+		cursor: pointer;
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 18px;
+		padding: 20px 50px;
+		text-decoration: none;
+	}
+	.menu-button1:hover {
+		background-color: #25374d;
+	}
+	.menu-button1:active {
+		position: relative;
+		top: 1px;
+	}
+	.txt1{
+		position: relative;
+		top: 2px;
+	}
+	.txt2{
+		position: relative;
+		top: 2px;
+		left: 15px;
+	}
+	.txt3{
+		position: relative;
+		top: 2px;
+		left: 25px;
+	}
+	.txt4{
+		position: relative;
+		top: 2px;
+		left: 20px;
+	}
+	.txt5{
+		position: relative;
+		top: 2px;
+	}
+	.txt6{
+		position: relative;
+		top: 2px;
+		left: 20px;
+	}
+	.txt7{
+		position: relative;
+		top: 2px;
+		left: 5px;
+	}
+	.txt8{
+		position: relative;
+		top: 2px;
+	}
+	.txt9{
+		position: relative;
+		top: 2px;
+		left: 25px;
+	}
+	.intruduction{
+		width: 960px;
+		height: 1060px;
+		opacity: 0.5; 
+        background: #000000; 
+		background: -webkit-linear-gradient(left, #000000 0%,#0c1016 100%); 
+		background: linear-gradient(to right, #000000 0%,#0c1016 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0c1016',GradientType=1); 
+		border-radius: 20px;
+		position: relative;
+		top: -670px;
+		left: -610px;
+		
+	}
+	.welcome{
+		position: relative;
+		left: 10px;
+		width: 950px;
+		border-bottom: 1px solid white;
+		color: white;
+		font-size: 30px;
+	}
+	.intruduction-text{
+		border-radius: 20px;
+		border: 1px solid white;
+		color: white;
+		position: relative;
+		top: 12px;
+		width: 960px;
+        height: 1000px;
+        padding-top: 1%;
+        padding-left: 1%;
+	}
+	.counter{
+		border-radius: 20px;
+		opacity: 0.5;
+		position: relative;
+		background-color: black;
+		margin-left: -500px;
+		margin-top: -500px;
+		width: 1080px;
+		height: 200px;
+
+	}
+	.counter1{
+		left: 35px;
+		float: left;
+		margin: 50px;
+		position: relative;
+		width: 100px;
+		height: 100px;
+		border: 1px solid white;
+	}
+	.news-feed{
+		position: relative;
+		margin-top: 100px;
+		margin-left: -620px;
+		height: 1325px;
+		border: 1px solid white;
+		width: 1330px;
+	}
+	.img1{
+		background-position: cover;
+		background-size: 100%;
+		margin: 20px;
+		float: left;
+		width: 400px;
+		height: 399px;
+		border: 1px solid white;
+    }
+
+
+
+    
+	</style>
+</head>
+<body class="background">
+	<div class="header"><a href="dead_by_daylight.html"><img class="logo" src="https://vignette4.wikia.nocookie.net/dead-by-daylight/images/8/89/Wiki-wordmark.png/revision/latest?cb=20170613182207&amp;path-prefix=ru" width="300" height="85" alt="Dead By Daylight Вики"></a></div>
+		<div class="header-menu">
+			<div class="header-menu1"><a class="href" href="#">ABOUT US</a></div>
+			<div class="header-menu1"><a class="href" href="#">CONTACTS</a></div>
+			<div class="header-menu1"><a class="href" href="#">NEWS FEED</a></div>
+			<div class="header-menu2"><a class="href" href="#">CHANGE LANGUAGE</a></div>
+		</div>
+		<div class="menu">
+			<a class="href" href="survivors_1.html"><div class="menu-button1"><div class="txt1">SURVIVORS</div></div></a>
+			<a class="href" href="#"><div class="menu-button1"><div class="txt2">KILLERS</div></div></a>
+			<a class="href" href="maps.html"><div class="menu-button1"><div class="txt3">MAPS</div></div></a>
+			<a class="href" href="#"><div class="menu-button1"><div class="txt4">PERKS</div></div></a>
+			<a class="href" href="#"><div class="menu-button1"><div class="txt5">OFFERINGS</div></div></a>
+			<a class="href" href="#"><div class="menu-button1"><div class="txt6">TOOLS</div></div></a>
+			<a class="href" href="#"><div class="menu-button1"><div class="txt7">PRESTIGE</div></div></a>
+			<a class="href" href="#"><div class="menu-button1"><div class="txt8">INDICATORS</div></div></a>
+			<a class="href" href="#"><div class="menu-button1"><div class="txt9">RANK</div></div></a>
+		</div>
+		<div class="intruduction">
+            <div class="welcome">Dwight Fairfield</div>
+			<div class="intruduction-text"><img src="https://vignette.wikia.nocookie.net/dead-by-daylight/images/d/d7/Dwight.png/revision/latest?cb=20160616082007&path-prefix=ru" alt="" width="300" height="500"><h1>Biography</h1>Dwight isn’t the typical guy you think of when someone says "survivor". He lacks that certain pizazz and without his glasses, he’s more or less blind. But as the sun sets and the woods come alive, Dwight clasps to his rat race life, making sure that he’ll live to see another day even though something unimaginable is after him. Dwight won’t stop. He’ll survive no matter what. As others spent hours being seen in high school. He spent hours becoming invisible and avoiding danger. And it doesn’t matter if it’s dangers in the hallway or dangers in the woods. Survival is key. As other employees panic when terror infects them, Dwight makes use of his disturbing teen experience. The tables have now turned and now others need to follow to Dwight’s firm directions if they are to survive as he knows how to disappear.<h1>Perks</h1><p>These are perks which start off only appearing in Dwight's bloodweb. After achieving level 30, teachable versions of these perks can be found: Bond at level 30, Prove Thyself at level 35, and Leader at level 40. If obtained other survivors are able to find Dwight's perks in their bloodwebs from that point on.
+                    Dwight is skilled at locating his allies and increasing their effectiveness. His perks help him and others, by keeping them together and alive. Thus, this means that Dwight's perks are centered around providing bonuses to allies' actions as well as his own.</p>
+
+                      <p>
+                <img src="https://vignette.wikia.nocookie.net/dead-by-daylight/images/6/61/PerkProveThyself%2CNacroixVersion.png/revision/latest/scale-to-width-down/200?cb=20180308124811&path-prefix=ru" alt="Фотография 1" width="120" height="120">
+                <img src="https://vignette.wikia.nocookie.net/dead-by-daylight/images/c/cd/PerkLeader%2CNacroixVersion.png/revision/latest/scale-to-width-down/200?cb=20180308124846&path-prefix=ru" alt="Фотография 2" width="120" height="120">
+             <img src="https://vignette.wikia.nocookie.net/dead-by-daylight/images/d/d4/PerkBond%2CNacroixVersion.png/revision/latest/scale-to-width-down/200?cb=20180308124914&path-prefix=ru" alt="Фотография 3" width="120" height="120">
+                
+                  </p>
+
+
+
+
+
+
+
+
+
+
+                </div>
+             
+        </div>    
+</body>
+</html>

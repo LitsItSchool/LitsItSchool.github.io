@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript">
+		/*
+			var slider_dead_by_daylight = 1;
+			window.onload = function () { setTimeout(frout, 5000); }
+			function frout() {
+			slider_dead_by_daylight++;
+			if (slider_dead_by_daylight>8) {slider_dead_by_daylight=0;}
+				switch(slider_dead_by_daylight) {
+				case 1:
+					document.getElementById('img').src = "SITE/1.jpg";
+					break;
+				case 2:
+					document.getElementById('img').src = "SITE/2.jpg";
+					break;
+				case 3:
+					document.getElementById('img').src = "SITE/3.jpg";
+					break;
+				case 4:
+					document.getElementById('img').src = "SITE/4.jpg";
+					break;
+				case 5:
+					document.getElementById('img').src = "SITE/5.jpg";
+					break;
+				case 6:
+					document.getElementById('img').src = "SITE/6.jpg";
+					break;
+				case 7:
+					document.getElementById('img').src = "SITE/7.jpg";
+					break;
+				case 8:
+					document.getElementById('img').src = "SITE/8.jpg";
+					break;					
+				}
+			setTimeout(frout, 5000);
+			}
+			*/
+		</script> 
+
+	<style type="text/css">
+	body{
+		margin: 0 auto;
+		font-family: arial;
+	}
+	.background{
+		background-image: url(SITE/pig.png);
+		width: 100px;
+		height: 900px;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+
+
+	}
+	.header{
+		opacity: 0.8; 
+        background: #000000; 
+		background: -webkit-linear-gradient(left, #000000 0%,#0c1016 100%); 
+		background: linear-gradient(to right, #000000 0%,#0c1016 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0c1016',GradientType=1); 
+		position: relative;
+		left: -700px; 
+		width: 1470px;
+		height: 100px; 
+	}
+	.logo{
+		width: 300px;
+		height: 85px;
+		position: relative;
+		margin-top: 7px;
+		margin-left: 150px;
+	}
+	.header-menu{
+		position: relative;
+		left: 100px;
+		top: -65px;
+		width: 560px;
+		height: 30px;
+	}
+	.header-menu1{
+		transition-duration: 0.2s;
+		font-size: 16px;
+		width: 100px;
+		position: relative;
+		top: -2px;
+		margin: 10px;
+		color: white;
+		float: left;
+
+	}
+	.header-menu2{
+		transition-duration: 0.2s;
+		width: 180px;
+		position: relative;
+		top: -2px;
+		margin: 10px;
+		color: white;
+		float: left;
+
+	}
+	.href{
+		color: white;
+		text-decoration: none;
+		transition-duration: 0.2s;
+	}
+	.href:hover{
+		text-decoration: underline;
+		transition-duration: 0.2s;
+	}
+	.slider-bar{
+		border-radius: 20px;
+		position: relative;
+		margin-left: -610px;
+		margin-top: 50px;
+		width: 960px;
+		height: 400px;
+	}
+	.menue{
+		border: 1px solid blue;
+		opacity: 0.8; 
+        background: #000000; 
+		background: -webkit-linear-gradient(left, #000000 0%,#0c1016 100%); 
+		background: linear-gradient(to right, #000000 0%,#0c1016 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0c1016',GradientType=1); 
+		border-radius: 20px;
+		position: relative;
+		left: 470px;
+		top: 80px;
+		width: 250px;
+		height: 470px;
+	}
+	.menu-button1 {
+		border: 1px solid blue;
+		width: 180px;
+		position: relative;
+		margin: 10px;
+		left: 25px;
+		opacity: 0.8;
+		background-color: #1f293b;
+		-moz-border-radius: 23px;
+		-webkit-border-radius: 23px;
+		border-radius: 23px;
+		display: inline-block;
+		cursor: pointer;
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 18px;
+		padding: 20px 50px;
+		text-decoration: none;
+	}
+	.menu-button1:hover {
+		background-color: #25374d;
+	}
+	.menu-button1:active {
+		position: relative;
+		top: 1px;
+	}
+	.txt1{
+		position: relative;
+		top: 2px;
+	}
+	.txt2{
+		position: relative;
+		top: 2px;
+		left: 15px;
+	}
+	.txt3{
+		position: relative;
+		top: 2px;
+		left: 25px;
+	}
+	.txt4{
+		position: relative;
+		top: 2px;
+		left: 20px;
+	}
+	.txt5{
+		position: relative;
+		top: 2px;
+	}
+	.txt6{
+		position: relative;
+		top: 2px;
+		left: 20px;
+	}
+	.txt7{
+		position: relative;
+		top: 2px;
+		left: 5px;
+	}
+	.txt8{
+		position: relative;
+		top: 2px;
+	}
+	.txt9{
+		position: relative;
+		top: 2px;
+		left: 25px;
+	}
+	.intruduction{
+		width: 960px;
+		height: 2100px;
+		opacity: 0.8; 
+        background: #000000; 
+		background: -webkit-linear-gradient(left, #000000 0%,#0c1016 100%); 
+		background: linear-gradient(to right, #000000 0%,#0c1016 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0c1016',GradientType=1); 
+		border-radius: 20px;
+		position: relative;
+		top: -390px;
+		left: -610px;
+		
+
+
+	}
+
+.intruduction img
+{
+		opacity: 0.8; 
+}
+	.welcome{
+		position: relative;
+		left: 10px;
+		width: 950px;
+		border-bottom: 1px solid white;
+		color: white;
+		font-size: 30px;
+	}
+	.intruduction-text{
+		border-radius: 20px;
+		border: 1px solid white;
+		color: white;
+		position: absolute;
+		top: 48px;
+		width: 960px;
+		height: 1000px;
+	}
+	.counter{
+		border-radius: 20px;
+		opacity: 0.8;
+		position: relative;
+		background-color: black;
+		margin-left: -500px;
+		margin-top: -500px;
+		width: 1080px;
+		height: 200px;
+
+	}
+	.counter1{
+		left: 35px;
+		float: left;
+		margin: 50px;
+		position: relative;
+		width: 100px;
+		height: 100px;
+		border: 1px solid white;
+	}
+	.news-feed{
+		position: relative;
+		margin-top: 100px;
+		margin-left: -620px;
+		height: 1325px;
+		border: 1px solid white;
+		width: 1330px;
+	}
+	.img1{
+		background-position: cover;
+		background-size: 100%;
+		margin: 20px;
+		float: left;
+		width: 400px;
+		height: 399px;
+		border: 1px solid white;
+	}
+	.thumb img  {
+	    border: 2px solid #55c5e9; 
+	    padding: 15px;
+	    background: #666; 
+	    margin-right: 10px; 
+	    margin-bottom: 10px; 
+	   }
+	.example2 {
+	    display:inline-block;   
+	    position:relative;
+	    margin: 40px;
+	 
+	}
+	.example2 span {
+	    display:inline-block;
+	    position:absolute;
+	    top:30px;   
+	    left:0px;
+	     
+	    /* Оформление текста */
+	    color:#FFF;
+	    font-family:Arial;
+	    font-size:20px; 
+	     
+	    /* Фон */
+	    background-color:rgba(0,0,0,.4);
+	    padding:10px 30px;
+	}
+	.name1{
+		position: absolute;
+		top: 60px;
+	}
+	.center{
+		text-align: center;
+	}
+	</style>
+</head>
+<body class="background">
+	<div class="header"><a href="dead_by_daylight.html"><img class="logo" src="https://vignette4.wikia.nocookie.net/dead-by-daylight/images/8/89/Wiki-wordmark.png/revision/latest?cb=20170613182207&amp;path-prefix=ru" width="300" height="85" alt="Dead By Daylight Вики"></a></div>
+		<div class="header-menu">
+			<div class="header-menu1"><a class="href" href="#">ABOUT US</a></div>
+			<div class="header-menu1"><a class="href" href="#">CONTACTS</a></div>
+			<div class="header-menu1"><a class="href" href="#">NEWS FEED</a></div>
+			<div class="header-menu2"><a class="href" href="#">CHANGE LANGUAGE</a></div>
+		</div>
+		<div class="menue">
+			<a class="href" href="survivors_1.html"><div class="menu-button1"><div class="txt1">SURVIVORS</div></div></a>
+			<a class="href" href="killers_1.html"><div class="menu-button1"><div class="txt2">KILLERS</div></div></a>
+			<a class="href" href="maps.html"><div class="menu-button1"><div class="txt3">MAPS</div></div></a>
+			<a class="href" href="items.html"><div class="menu-button1"><div class="txt6">ITEMS</div></div></a>
+			<a class="href" href="#"><div class="menu-button1"><div class="txt9">RANK</div></div></a>
+		</div>
+		<div class="intruduction">
+			<div class="welcome">Items List</div>                               
+			<div class="container">           
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Icon</th>
+        <th>Item</th>
+        <th>Advantages</th>
+        <th>Duration</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/c/cb/UncommonFlashlight.png/revision/latest/scale-to-width-down/100?cb=20160615225502"></td>
+        <td class="center">Flashlight</td>
+        <td><ul>
+        	<li type="square">Can blind the killer (aim for the eyes)</li>
+			<li type="square">Can 'cause the killer to drop the survivor they're carrying</li>
+			<li type="square">Beam width can be increased, by sacrificing range, when improved via add-ons</li>
+		</ul></td>
+		<td class="center">5 Second</td>
+      </tr>
+      <tr>
+      	<td><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/e/e8/RareFlashlight.png/revision/latest/scale-to-width-down/110?cb=20180527231636"></td>
+        <td class="center">Sport Flashlight</td>
+        <td>
+        	<ul>
+        		<li type="square"></li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/5/58/UltraRareFlashlight.png/revision/latest/scale-to-width-down/100?cb=20180527233114"></td>
+        <td class="center">Utility Flashlight</td>
+        <td>
+        	<ul>
+        		<li type="square"></li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/4/4d/CommonMed-Kit.jpg/revision/latest/scale-to-width-down/90?cb=20160615225623"></td>
+        <td class="center">Camping Aid Kit</td>
+        <td>
+        	<ul>
+        		<li type="square">Can fully heal a survivor from "bleeding state"</li>
+        		<li type="square">Gives self-heal action</li>
+        		<li type="square">Decreases the time it takes to heal a survivor in all states (Downed, bleeding, etc.)</li>
+        		<li type="square">Makes healing skill checks easier</li>
+        		<li type="square">Speed and effectiveness can be improved via add-ons</li>
+        	</ul>
+        </td>
+        <td class="center">8 charges</td>
+      </tr>
+        <tr>
+      	<td><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/c/ce/UncommonMed-Kit.png/revision/latest/scale-to-width-down/110?cb=20180527230605"></td>
+        <td class="center">First Aid Kit</td>
+        <td>
+        	<ul>
+        		<li type="square">Can fully heal a survivor from "bleeding state"</li>
+        		<li type="square">Gives self-heal action</li>
+        		<li type="square">Decreases the time it takes to heal a survivor in all states (Downed, bleeding, etc.)</li>
+        		<li type="square">Makes healing skill checks easier</li>
+        		<li type="square">Speed and effectiveness can be improved via add-ons</li>
+        	</ul>
+        </td>
+        <td class="center">16 charges</td>
+      </tr>
+      <tr>
+      	<td><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/6/69/RareMed-Kit.png/revision/latest?cb=20180527231427"></td>
+        <td class="center">Emergency Med-Kit</td>
+        <td>
+        	<ul>
+        		<li type="square"></li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/a/a2/UltraRareMed-Kit.png/revision/latest?cb=20180527233024"></td>
+        <td class="center">Ranger Med-Kit</td>
+        <td>
+        	<ul>
+        		<li type="square"></li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/1/1a/CommonToolbox.png/revision/latest/scale-to-width-down/110?cb=20180527233224"></td>
+        <td class="center">Worn-Out Tools</td>
+        <td>
+        	<ul>
+        		<li type="square">Can remove hooks and traps by scavenging them</li>
+        		<li type="square">Decreases time it takes to repair the generator</li>
+        		<li type="square">Makes repair skill checks easier</li>
+        		<li type="square">Speed and effectiveness can be improved via add-ons</li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/4/4a/UncommonToolbox.png/revision/latest/scale-to-width-down/100?cb=20160615225631"></td>
+        <td class="center">Toolbox</td>
+        <td>
+        	<ul>
+        		<li type="square"></li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td></td>
+        <td class="center">Mechanic's Toolbox</td>
+        <td>
+        	<ul>
+        		<li type="square"></li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td></td>
+        <td class="center">Commodious Toolbox</td>
+        <td>
+        	<ul>
+        		<li type="square"></li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td></td>
+        <td class="center">Engineer's Toolbox</td>
+        <td>
+        	<ul>
+        		<li type="square"></li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td></td>
+        <td class="center">Alex's Toolbox</td>
+        <td>
+        	<ul>
+        		<li type="square"></li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/6/6c/UncommonMap.png/revision/latest/scale-to-width-down/100?cb=20160615225641"></td>
+        <td class="center">Map</td>
+        <td>
+        	<ul>
+        		<li type="square">One generator's location is shown at the start of the match</li>
+        		<li type="square">Shows the location of all discovered generators</li>
+        		<li type="square">Shows the location of all discovered hatches* <sup>citation needed</sup></li>
+        		<li type="square">Allows showing of locations to fellow survivors via button push</li>
+        		<li type="square">Can show discovered killer belongings (Traps, hooks, etc.), when improved via add-on</li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/8/82/UncommonSkeletonKey.png/revision/latest/scale-to-width-down/100?cb=20160615225651"></td>
+        <td class="center">Skeleton Key</td>
+        <td>
+        	<ul>
+        		<li type="square">Allows the user to open the exit hatch at any point during the game, allowing partial escape points</li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td></td>
+        <td class="center">Broken Key</td>
+        <td>
+        	<ul>
+        		<li type="square"></li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+      <tr>
+      	<td></td>
+        <td class="center">Dull Key</td>
+        <td>
+        	<ul>
+        		<li type="square"></li>
+        	</ul>
+        </td>
+        <td>	</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+		</div>
+</body>
+</html>

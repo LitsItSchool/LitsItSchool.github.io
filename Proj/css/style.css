@@ -1,0 +1,160 @@
+* {
+  margin:0;
+  padding:0;
+}
+header {
+   height: 150px;
+   width: 100%;
+   background: linear-gradient(#355, #378 25%,#fff);
+}
+.content h2 {
+ text-align: center;
+ color: orange;
+}
+header img {
+  width: 80px;
+  height:100px;
+  margin-left: 15px;
+  box-shadow: 1px 1px 3px 3px grey;
+  
+}
+body {
+ background: rgb(255,255,204);
+}                              
+
+.brand h1 {
+  color: #fff;
+  margin-left: 80px;
+  text-shadow: 2px 2px 4px blue;
+}
+.brand span {
+  color: orange;
+  text-shadow: 1px 1px 1px black;
+}
+.address-bar {
+  margin-top:30px;
+  font-size: 18px;
+}
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+footer {
+  width: 100%;
+  background: blue;
+  margin-top: 50px;
+  color: #fff;
+}
+tr {
+    background: #fff;
+}
+tr:hover {
+    color: rgb(86, 172, 219);
+    background: rgb(226, 230, 233);
+}
+iframe {
+    border:1px solid  rgba(0,0,250,.6);
+    box-shadow: 1px 1px 5px rgba (0,0,0,.5);
+}
+
+iframe {
+    width: 75%;
+    height: 50%;
+    margin-left: 150px;
+}
+p strong {
+    color: #0f0f0f;
+    font-weight: bold;
+}
+.time {
+    background: yellow;
+    padding: 2px 5px;
+}
+.time span {
+    color:aliceblue;
+    text-shadow: 1px 1px 1px black;
+}
+.tel {
+    text-indent: 15px;
+     color: dimgrey;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.tel>head {
+    text-decoration: underline;
+    color: red;
+}
+p.email span{
+    color: cornflowerblue;
+    text-indent: 15px;
+    font-weight: bold;
+}
+.address {
+    position: absolute;
+}
+address p{
+    color: #0f0f0f;
+}
+
+
+
+@media screen and (min-width:768px) {
+    
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: rgb(255,204,102);
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 15px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+ul li {
+    list-style: none;
+}
+.img {
+    width: 80px;
+    height: 80px;
+    
+}
+.socialmedia {
+    position: fixed; 
+    top: 50%;
+    left: 0px;
+}
+
+.socialmedia .img {
+    display: block;
+    margin: 2px;
+}

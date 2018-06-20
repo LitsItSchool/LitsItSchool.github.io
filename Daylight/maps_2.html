@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		/*
+			var slider_dead_by_daylight = 1;
+			window.onload = function () { setTimeout(frout, 5000); }
+			function frout() {
+			slider_dead_by_daylight++;
+			if (slider_dead_by_daylight>8) {slider_dead_by_daylight=0;}
+				switch(slider_dead_by_daylight) {
+				case 1:
+					document.getElementById('img').src = "SITE/1.jpg";
+					break;
+				case 2:
+					document.getElementById('img').src = "SITE/2.jpg";
+					break;
+				case 3:
+					document.getElementById('img').src = "SITE/3.jpg";
+					break;
+				case 4:
+					document.getElementById('img').src = "SITE/4.jpg";
+					break;
+				case 5:
+					document.getElementById('img').src = "SITE/5.jpg";
+					break;
+				case 6:
+					document.getElementById('img').src = "SITE/6.jpg";
+					break;
+				case 7:
+					document.getElementById('img').src = "SITE/7.jpg";
+					break;
+				case 8:
+					document.getElementById('img').src = "SITE/8.jpg";
+					break;					
+				}
+			setTimeout(frout, 5000);
+			}
+			*/
+		</script> 
+
+	<style type="text/css">
+	body{
+		margin: 0 auto;
+		font-family: arial;
+	}
+	.background{
+		background-image: url(SITE/pig.png);
+		width: 100px;
+		height: 900px;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+
+
+    }
+    
+
+
+	.header{
+		opacity: 0.8; 
+        background: #000000; 
+		background: -webkit-linear-gradient(left, #000000 0%,#0c1016 100%); 
+		background: linear-gradient(to right, #000000 0%,#0c1016 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0c1016',GradientType=1); 
+		position: relative;
+		left: -700px; 
+		width: 1470px;
+		height: 100px; 
+	}
+	.logo{
+		width: 300px;
+		height: 85px;
+		position: relative;
+		margin-top: 7px;
+		margin-left: 150px;
+	}
+	.header-menu{
+		position: relative;
+		left: 100px;
+		top: -65px;
+		width: 560px;
+		height: 30px;
+	}
+	.header-menu1{
+		transition-duration: 0.2s;
+		font-size: 16px;
+		width: 100px;
+		position: relative;
+		top: -2px;
+		margin: 10px;
+		color: white;
+		float: left;
+
+	}
+	.header-menu2{
+		transition-duration: 0.2s;
+		width: 180px;
+		position: relative;
+		top: -2px;
+		margin: 10px;
+		color: white;
+		float: left;
+
+	}
+	.href{
+		color: white;
+		text-decoration: none;
+		transition-duration: 0.2s;
+	}
+	.href:hover{
+		text-decoration: underline;
+		transition-duration: 0.2s;
+	}
+	.slider-bar{
+		border-radius: 20px;
+		position: relative;
+		margin-left: -610px;
+		margin-top: 50px;
+		width: 960px;
+		height: 400px;
+	}
+	.menu{
+		border: 1px solid blue;
+		opacity: 0.8; 
+        background: #000000; 
+		background: -webkit-linear-gradient(left, #000000 0%,#0c1016 100%); 
+		background: linear-gradient(to right, #000000 0%,#0c1016 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0c1016',GradientType=1); 
+		border-radius: 20px;
+		position: relative;
+		left: 470px;
+		top: 80px;
+		width: 290px;
+		height: 430px;
+	}
+	.menu-button1 {
+		border: 1px solid blue;
+		width: 100px;
+		position: relative;
+		margin: 10px;
+		left: 35px;
+		opacity: 1;
+		background-color: #1f293b;
+		-moz-border-radius: 23px;
+		-webkit-border-radius: 23px;
+		border-radius: 23px;
+		display: inline-block;
+		cursor: pointer;
+		color: #ffffff;
+		font-family: Arial;
+		font-size: 18px;
+		padding: 20px 50px;
+		text-decoration: none;
+	}
+	.menu-button1:hover {
+		background-color: #25374d;
+	}
+	.menu-button1:active {
+		position: relative;
+		top: 1px;
+	}
+	.txt1{
+		position: relative;
+		top: 2px;
+	}
+	.txt2{
+		position: relative;
+		top: 2px;
+		left: 15px;
+	}
+	.txt3{
+		position: relative;
+		top: 2px;
+		left: 25px;
+	}
+	.txt4{
+		position: relative;
+		top: 2px;
+		left: 20px;
+	}
+	.txt5{
+		position: relative;
+		top: 2px;
+	}
+	.txt6{
+		position: relative;
+		top: 2px;
+		left: 20px;
+	}
+	.txt7{
+		position: relative;
+		top: 2px;
+		left: 5px;
+	}
+	.txt8{
+		position: relative;
+		top: 2px;
+	}
+	.txt9{
+		position: relative;
+		top: 2px;
+		left: 25px;
+	}
+	.intruduction{
+		width: 960px;
+		height: 1060px;
+		opacity: 0.8; 
+        background: #000000; 
+		background: -webkit-linear-gradient(left, #000000 0%,#0c1016 100%); 
+		background: linear-gradient(to right, #000000 0%,#0c1016 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#0c1016',GradientType=1); 
+		border-radius: 20px;
+		position: relative;
+		top: -350px;
+		left: -610px;
+		
+	}
+	.welcome{
+		position: relative;
+		left: 10px;
+		width: 950px;
+		border-bottom: 1px solid white;
+		color: white;
+		font-size: 30px;
+	}
+	.intruduction-text{
+		border-radius: 20px;
+		border: 1px solid white;
+		color: white;
+		position: relative;
+		top: 12px;
+		width: 950px;
+        height: 1000px;
+        padding-top: 1%;
+        padding-left: 1%;
+	}
+	.counter{
+		border-radius: 20px;
+		opacity: 0.8;
+		position: relative;
+		background-color: black;
+		margin-left: -500px;
+		margin-top: -500px;
+		width: 1080px;
+		height: 200px;
+
+	}
+	.counter1{
+		left: 35px;
+		float: left;
+		margin: 50px;
+		position: relative;
+		width: 100px;
+		height: 100px;
+		border: 1px solid white;
+	}
+	.news-feed{
+		position: relative;
+		margin-top: 100px;
+		margin-left: -620px;
+		height: 1325px;
+		border: 1px solid white;
+		width: 1330px;
+	}
+	.img1{
+		background-position: cover;
+		background-size: 100%;
+		margin: 20px;
+		float: left;
+		width: 400px;
+		height: 399px;
+		border: 1px solid white;
+    }
+    .nado{
+    	opacity: 1;
+    }
+
+
+
+    
+	</style>
+</head>
+<body class="background">
+	<div class="header"><a href="dead_by_daylight.html"><img class="logo" src="https://vignette4.wikia.nocookie.net/dead-by-daylight/images/8/89/Wiki-wordmark.png/revision/latest?cb=20170613182207&amp;path-prefix=ru" width="300" height="85" alt="Dead By Daylight Вики"></a></div>
+		<div class="header-menu">
+			<div class="header-menu1"><a class="href" href="#">ABOUT US</a></div>
+			<div class="header-menu1"><a class="href" href="#">CONTACTS</a></div>
+			<div class="header-menu1"><a class="href" href="#">NEWS FEED</a></div>
+			<div class="header-menu2"><a class="href" href="#">CHANGE LANGUAGE</a></div>
+		</div>
+		<div class="menu">
+			<a class="href" href="survivors_1.html"><div class="menu-button1"><div class="txt1">SURVIVORS</div></div></a>
+			<a class="href" href="#"><div class="menu-button1"><div class="txt2">KILLERS</div></div></a>
+			<a class="href" href="maps.html"><div class="menu-button1"><div class="txt3">MAPS</div></div></a>
+			<a class="href" href="items.html"><div class="menu-button1"><div class="txt6">ITEMS</div></div></a>
+			<a class="href" href="#"><div class="menu-button1"><div class="txt9">RANK</div></div></a>
+		</div>
+		<div class="intruduction">
+            <div class="welcome">Coldwind Farm</div>
+			<div class="intruduction-text"><img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/4/43/Coldwind.png/revision/latest?cb=20160615103849" alt="" width="300" height="500"><h1>Coldwind Farm</h1>Coldwind Farm was widely known as it spanned two counties. Mr. and Mrs. Thompson put a lot of work into the farm, but all those blisters and sweat paid off. But for some reason, one day in 1946, produce stopped coming. And when crops started to wither and die, investigators decide to take a closer look.
+
+The farmhouse was abandoned. Dust covered the floor. Mold and dampness covered the rest. Fecal matter was found across the house. All but in one room. One room seemed to be have been spared from whatever the rest of the house suffered from. It came with no other explanation than that someone must live there. But no living soul was to be found. Instead remains were discovered in the basement. Both from Mr. and Mrs. Thompson together with livestock.
+
+Several years later, as people were trying to renovate and hope to sell the place, they discovered disturbing things inside the walls as they started to collapse. Things and creations put together by human hands. The whole farm were to be forgotten. But somehow people were drawn to it as things occurred. The Silo toppled over during a storm, revealing corpses inside. And one night the Harvester started, spewing blood across the trees. Now, Coldwind Farm is nothing more than that buzzing sound one can hear during summer nights.
+
+                      <p>
+                <img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/2/29/381210_20170319161752_1.png/revision/latest/scale-to-width-down/247?cb=20170322003804" alt="Фотография 1" width="120" height="120">
+                <img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/f/fe/381210_20170319161804_1.png/revision/latest/scale-to-width-down/247?cb=20170322004748" alt="Фотография 2" width="120" height="120">
+             <img src="https://vignette.wikia.nocookie.net/deadbydaylight/images/d/dd/381210_20170319161813_1.png/revision/latest/scale-to-width-down/247?cb=20170322004816" alt="Фотография 3" width="120" height="120">
+                
+                  </p>
+
+
+
+
+
+
+
+
+
+
+                </div>
+             
+        </div>    
+</body>
+</html>
