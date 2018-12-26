@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friends</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="top">
+        <p class="logo" >Say me</p>
+        
+        <input type="search" placeholder="Look for the past in the future" class="search">
+
+        <div class="icon">
+        <img src="Images/Profile.png" alt="" class="profileButton jump"  onclick="profileNotification()"  >
+        <a href="friends.html"><img src="Images/Friends.png" alt="Friends" class="FriendsButton jump"></a>
+        <a href="SMS.html"><img src="Images/Chat.png" alt="Chat" class="ChatsButton jump"></a>
+        <a href="groups.html"><img src="Images/Groups.png" alt="Groups" class="GroupsButton jump"></a>
+        <a href="News.html"> <img src="Images/news.png" alt="" class="NewsButton jump" ></a>
+        </div>
+        
+    </div>
+    
+    <div class="Right">
+        <div class="friendR">
+            <div class="friendR-photo-block">
+                <img src="images/Friends/jock_photo1.png" alt="" class="friendR-photo" onclick="OpenSMSR()">
+            </div>
+        </div>
+        <div id="SMSR">
+            <div class="SMSR-setting">
+                    Петро Порошенкo
+                <div class="CloseSMSR" onclick="CloseSMSR()">x</div>
+            </div>
+            <div class="SMS">
+                
+            </div>
+            <div class="EnterR" >
+                <input type="text" class="EnterR-input" placeholder="Enter text...">
+            </div>
+        </div>
+    </div>
+
+    <ul id="profile" type="none" >
+        <li><a href="index.html">My profile</a></li><hr>
+        <li><a href="setting.html" style="color:black;"><p>Настройки</p></a></li>
+        <li><a href="setting.html#section2" style="color:black;"><p>Персонализация</p></a></li> <hr>       
+        <li><p>Выход</p></li>
+     </ul>
+
+     <div class="feedback-block">
+            <img src="Images/feedback.png"  alt="" class="feedback-img" onclick="OpenFeedback()">
+            <div class="feedback-chat-block" id="feedback">
+                <div class="feedback-chat"><p class="feedback-say">>Hello,you need help?</p><div class="feedback-close" onclick="CloseFeedback()">x</div></div>
+                <input type="text" class="feedback-input" placeholder="Enter text..">
+            </div>
+        </div>
+
+<div class="LeftAndRight">
+    <div class="friends-block">
+        <div class="friends">
+            <div class="friend-setting">
+                <button type="button" class="btn btn-outline-info frn-btn">Все друзья</button>
+                <button type="button" class="btn btn-outline-info frn-btn" onclick="Online()">Онлайн</button>
+            </div>
+            <div class="friend" id="Petr">
+                <img src="images/friends/jock_photo1.png" alt="" class="friend-photo">
+                <p class="friend-name"><b>Петро Порошенко</b></p>
+                <a href="Groups/group1.html"><p class="friend-group">Украина понад усе!</p></a>
+                <p class="friend-status">Президент України, The President of Ukraine</p>
+            </div>
+            <div class="friend" id="Trump">
+                <img src="images/friends/trump.png" alt="" class="friend-photo">
+                <p class="friend-name"><b>Donald J. Trump</b></p>
+                <a href=""><p class="friend-group">Official Community of America</p></a>
+                <p class="friend-status">45th President of the United States of America</p>
+            </div>
+            <div class="friend" id="Frank">
+                <img src="images/friends/Germany.png" alt="" class="friend-photo">
+                <p class="friend-name"><b>Frank-W. Steinmeier</b></p>
+                <a href="Groups/group1.html"><p class="friend-group">Украина понад усе!</p></a>
+                <p class="friend-status">Foto: Tobias Kleinschmidt (Real)satireaccount</p>
+            </div>
+            <div class="friend" id="Emmanuel">
+                <img src="images/friends/Francua.png" alt="" class="friend-photo">
+                <p class="friend-name"><b>Emmanuel Macron</b></p>
+                <a href=""><p class="friend-group">Official Community of America</p></a>
+                <p class="friend-status">Président de la République française.</p>
+            </div>
+            <div class="friend" id="Milos">
+                <img src="images/friends/Italia.png" alt="" class="friend-photo">
+                <p class="friend-name"><b>Miloš Zeman</b></p>
+                <a href=""><p class="friend-group">Quirinale</p></a>
+                <p class="friend-status">Jmenuji se Miloš a jsem váš prezident. Jsem zábavný a docela falešný účet, mějte mě rádi</p>
+            </div>
+            <div class="friend" id="明仁">
+                <img src="images/friends/Ipan.png" alt="" class="friend-photo">
+                <p class="friend-name"><b>明仁（平成天皇）</b></p>
+                <a href="Groups/group1.html"><p class="friend-group">Украина понад усе!</p></a>
+                <p class="friend-status">天皇の明仁です。我が国及び世界の人々の安寧と幸せを毎日祈っています。</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

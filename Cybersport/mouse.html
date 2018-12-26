@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Cybersport</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="site.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOGOTYPE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEAM</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOURNAMENTS</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="team.html" class="w3-bar-item w3-button">TEAM</a>
+        <a href="tournir.html" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div id="band"></div>
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/мауз/mousesports.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div id="tour"></div>
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>Сomposition:</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="Team/мауз/suNny.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>suNny</h3>
+  <p>Player</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Team/мауз/ropz.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>ropz</h3>
+  <p>Player</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Team/мауз/STYKO.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>STYKO</h3>
+  <p>Player</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Team/мауз/chrisJ.png" alt="Captain" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>chrisJ</h3>
+  <p><a href="#">Captain</a></p>
+</div>
+
+
+<div class="w3-quarter">
+  <img src="Team/мауз/oskar.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>oskar</h3>
+  <p>Player</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Team/мауз/lmbt.jpg" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>lmbt</h3>
+  <p>Coach</p>
+</div>
+
+
+
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div id="contact"></div>
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>In August 2012, mouz announced the British CS: GO squad, which included Mx, RattlesnK, Hughsy, RE1EASE and pt. In October, Team xXx was signed: approx, nex, stavros, strux1 and Troubley. In December, the British left the organization, and karrigan and zonixx replaced stavros and strux1. After the changes that took place in 2013, the squad did not settle down: in the cadiaN and cLy team, they replaced crisby and gob b. Then the composition continued to shake, some players were replaced by others. The latest changes occurred in December 2015, when Spiidi changed gob b. After that, the team managed to stabilize the roster, but to show a good result on the pro scene for them is still not an easy task.</p>
+
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/мауз/win1.png" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>In the final of StarLadder & i-League StarSeries Season 4, the team from the European Mousesports won the CIS Natus Vincere with a score of 2-1 (de_overpass 7-16, de_mirage 22-18 and de_train 16-9).</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/мауз/win2.png" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>In the heavy final of V4 Future Sports Festival, the team from the European Mousesports won the European squad with a score of 2-1 (de_mirage 16-8, de_cobblestone 2-16 and de_train 16-14).  
+</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/мауз/win3.jpg" alt="Турнир3" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>In the very heavy final of ESL One: New York 2018, the team from the European Mousesports won the North American Liquid with a score of 3-2 (de_cache 16-12, de_nuke 7-16, de_inferno 10-16, de_dust 19-17 and de_mirage 16-8).</p>
+
+  </div>
+  </div>
+</div>
+
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

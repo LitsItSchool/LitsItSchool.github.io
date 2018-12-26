@@ -1,0 +1,1277 @@
+
+div{
+    border-radius: 3px
+}
+a{
+    text-decoration: none;
+    color: #00aaff;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: #d6f1ff;
+}
+.jump:hover{
+    margin-top: 3px;
+}
+.top{
+    border: 0px solid #00aaff;
+    background:#00aaff;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+
+}
+.logo{
+    color: white;
+    margin: 0px;
+    margin-left:300px;
+    padding:0;
+    display:inline-block;
+    height: 35px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+.search{
+    margin: 0;
+    margin-left: 50px;
+    width: 391px;
+    background-color: #0099e6;
+    height: 30px;
+    border: 0 solid black;
+    display: inline-block;
+    margin-top: 5px;
+    color: white;
+    border-radius: 100px;
+    outline: none;
+    padding-left: 10px;
+}
+input[type="search"]::placeholder 
+{ 
+    color: #006699; 
+} 
+.profileButton{
+    width: 35px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.FriendsButton{
+    width: 40px;
+    height: 35px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.ChatsButton{
+    width: 40px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.GroupsButton{
+    width: 60px;
+    height: 30px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.NewsButton{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.icon{
+    right: 70px;
+    position: absolute;
+    top: 0px;
+}
+#profile{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    right: 90px;
+    background-color: white;
+    display: none;
+    top: 60px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+}
+.Right{
+    border: 0px solid black;
+    width: 400px;
+    position: fixed;
+    right: 10px;
+    margin-top: 0px;
+}
+.friendR{
+    border: 2px solid black;
+    height: 440px;
+    width: 60px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    float: right;
+    background-color: white;
+}
+.friendR-photo-block{
+    border: 0px solid black;
+    width: 50px ;
+    height: 50px;
+    margin-left: 2px;
+    margin-top: 4px;
+    cursor: pointer;
+    float: left
+}
+.friendR-photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+#SMSR{
+    border-top: 3px solid black;
+    width: 300px;
+    height: 400px;
+    float: right;
+    box-shadow: -5px 4px 10px 0 rgba(0,0,0,0.2);
+    margin-right: 8px;
+    display: none;
+    background-color: white;
+}
+.SMSR-setting{
+    border: 1px solid black;
+    width: 100%;
+    height: 8%;
+    border-bottom: 3px solid black;
+}
+.CloseSMSR{
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.SMS{
+    border: 1px solid black;
+    width: 100%;
+    height: 90%;
+}
+.EnterR{
+    border: 1px solid black;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+.SMSR-icon{
+    width: 10%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.SMSR-smile{
+    width: 10%;
+    cursor: pointer;
+    margin-left: 5px;
+    display: inline-block;
+}
+.EnterR-input{
+    border: 0px solid wheat;
+    width: 70%;
+    height: 100%;
+    max-width: 80%;
+    outline: none;
+    float: center;
+}
+.LeftAndRight{
+    border: 0px solid black;
+    margin-left: 210px;
+    width: 900px;
+    margin-top: 70px;
+}
+/*feedback*/
+.feedback-block{
+    position: fixed;
+    right: 10px;
+    top: 600px;
+    border: 0px solid black;
+    width: 20%;
+    height: 33%;
+}
+.feedback-img{
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-top: 230px;
+    cursor: pointer;
+}
+.feedback-chat-block{
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    float: left;
+    top: 0px;
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    display: none;
+}
+.feedback-chat{
+    width: 100%;
+    height: 85%;
+    border: 0px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.feedback-input{
+    height: 15%;
+    width: 100%;
+    font-size: 15px;
+    outline-color: black;
+    border: 0;
+    border-top: 2px solid rgb(80, 80, 80);
+}
+.feedback-say{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.feedback-say-right{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+    float: right;
+}
+.feedback-close{
+    position: relative;
+    cursor: pointer;
+    float: right;
+    top: -35px;
+    font-size: 25px;
+    font-weight: 700;
+}
+/*Профиль*/
+.profileTop{
+    border: 0px solid black;
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    border-left: 3px solid black;
+    height: 200px;
+    width: 700px;
+    background-color: white;
+}
+.profilePh{
+    border: 0px solid black;
+    border-radius: 100px 100px 100px 100px;
+    margin-top: 55px;
+    margin-left: 60px;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+}
+#name{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 90px
+}
+#Nickname{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 115px
+}
+#profile-status{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 160px
+}
+/*.profileL{
+    border: 1px solid black;
+    width: 250px;
+    height: 600px;
+    margin-right: 0px;
+    display: inline-block;
+    margin-top: 15px;
+    background-color: white;
+}
+.profileR{
+    border: 1px solid black;
+    width: 450px;
+    height: 600px;
+    margin-right: 0px;
+    display: inline-block;
+    margin-top: 15px;
+    background-color: white;
+}*/
+.photoList{
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 17px;
+    display: inline-block;
+    cursor: pointer;
+}
+#photo{
+    background-image: url(Images/photo.png);
+    background-size: cover;
+}
+#photo1{
+    background-image: url(Images/photo1.png);
+    background-size: cover;
+}
+#photo2{
+    background-image: url(Images/photo2.png);
+    background-size: cover;
+}
+#photo3{
+    background-image: url(Images/photo3.png);
+    background-size: cover;
+}
+.groupList{
+    border: 0px solid black;
+    border-top: 3px solid black;
+    width: 100%;
+    height: 160px;
+    background: white;
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+.groupPh{
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top:20px;
+    display:inline-block;
+}
+.nameGroup{
+    display: inline-block;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+    position: absolute;
+    margin-top:37px;
+}
+.profileLeft{
+    border: 0px solid black;
+    display: inline-block;
+    width: 300px;
+    margin-top: 20px;
+    height: 500px;
+}
+.chatList{
+    border: 0px solid black;
+    border-top: 3px solid black;
+    width: 100%;
+    height: 330px;
+    background: white;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+}
+.chatPh{
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top:20px;
+    display:inline-block;
+}
+.nameChat{
+    display: inline-block;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+    position: absolute;
+    margin-top:37px;
+}
+.profileRight{
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    width: 380px;
+    height: 550px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 200px;
+}
+.profile-enter{
+    border: 2px solid black;
+    height: 50px;
+    margin: 10px;
+    width: 94%;
+}
+.newsPr{
+    border:2px solid black;
+    margin: 15px;
+	width: 90%;
+    height: 400px;
+    background: white;
+}
+.newsImg{
+    border: 0px solid black;
+    width: 100%;
+    height: 40%;
+    margin-top: 5px;
+}
+.text{
+    border: 0px solid black;
+    width: 326px;
+    height: 40%;
+    margin: 5px;
+}
+/*Правая часть сайта*/
+#Personalization{
+    width: 800px;
+    height: 500px;
+    background: white;
+    position: absolute;
+    right: 20px;
+    display: none;
+}
+/*Список друзей
+#friend-block{
+    border: 0px solid black;
+    width: 820px;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    display: none;
+}
+#friends{
+    border: 1px solid black;
+    border-top: 3px solid black;
+    border-radius: 3px;
+    width: 550px;
+    background: white;
+    right: 20px;
+}
+
+.friend{
+    border: 1px solid black;
+    width: 530px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.friend-avatar{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: px solid green;
+}
+.friend-name-block{
+    position: absolute;
+    margin-left: 100px;
+    
+}
+.friend-name{
+    margin: 0;
+    color: black;
+}
+.friend-group-name{
+    margin: 0;
+    color: purple;
+}
+.friend-status-block{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.friend-setting{
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 570px
+}
+*/
+
+/*Список групп
+#group-block{
+    border: 1px solid black;
+    width: 820px;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    display: block;
+}
+.groups{
+    border: 1px solid black;
+    border-top: 3px solid black;
+    border-radius: 3px;
+    width: 550px;
+    background: white;
+}
+.group{
+    border: 1px solid black;
+    border-left: 3px solid black;
+    width: 530px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.group-avatar{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: px solid green;
+}
+.group-name-block{
+    position: absolute;
+    margin-left: 100px;
+    
+}
+.group-status-block{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+*/
+/*Список друзей ссылка*/
+.friends-block{
+    border: 0px solid black;
+    width: 800px;
+    height: 800px;
+}
+.friends{
+    width: 600px;
+    min-height: 700px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    background-color: white;
+}
+.friend-setting{
+    border-bottom: 3px solid black;
+    padding-bottom: 7px;
+    width: 600px;
+}
+.friend{
+    border: 0px solid black;
+    border-radius: 0;
+    width: 600px;
+    min-height: 120px;
+    border-bottom: 1px solid black;
+}
+.friend-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    float: left;
+    margin: 10px;
+}
+.friend-name{
+    color: #0099e6
+}
+.friend-group{
+    color: #006699;
+}
+.friend-status{
+    color: black;
+}
+.online{
+    color: green;
+    font-size: 100px;
+    position: absolute;
+    top: 20px;
+    margin-left: 500px
+}
+/* cписок групп*/
+.groups-block{
+    border: 0px solid black;
+    width: 800px;
+    height: 800px;
+}
+.groups{
+    width: 600px;
+    min-height: 750px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    background-color: white;
+}
+.group-setting{
+    border-bottom: 3px solid black;
+    padding-bottom: 7px;
+    width: 600px;
+    background: none;
+}
+
+.group{
+    border: 0px solid black;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    width: 600px;
+    height: 120px;
+    border-bottom: 1px solid black;
+    background-color: white;
+
+}
+.group-photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    float: left;
+    margin: 10px;
+    background: url(images/ukraine.png);
+    background-size: cover;
+}
+.group-name{
+    font-size: 18px;
+    color: #0099e6
+}
+.subscribers{
+    color: #006699;
+    margin-bottom: 0px;
+}
+.group-status{
+    color: black;
+}
+/*Группа*/
+.profileTop{
+    border: 0px solid black;
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    border-left: 3px solid black;
+    height: 200px;
+    width: 700px;
+    background-color: white;
+}
+.group-groupPh{
+    border: 0px solid black;
+    border-radius: 100px 100px 100px 100px;
+    margin-top: 55px;
+    margin-left: 60px;
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+#group-name{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 80px;
+    font-size: 20px;
+    color: #0099e6;
+}
+#group-Nickname{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 115px;
+    color: #006699;
+}
+#group-status{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 140px
+}
+.group-photo-list{
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 17px;
+    display: inline-block;
+}
+#group-photo{
+    background-image: url(Images/group-photo.png);
+    background-size: cover;
+}
+#group-photo1{
+    background-image: url(Images/ukraine-photo1.png);
+    background-size: cover;
+}
+#group-photo2{
+    background-image: url(Images/group-photo2.png);
+    background-size: cover;
+}
+#group-photo3{
+    background-image: url(Images/group-photo3.png);
+    background-size: cover;
+}
+.group-player-list{
+    border: 0px solid black;
+    border-top: 3px solid black;
+    width: 100%;
+    height: 220px;
+    background: white;
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+}
+.group-player{
+    border: 0px solid black;
+    width: 30%;
+    display: inline-block;
+    margin-left: 5px;
+}
+.group-player-photo{
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 65px;
+    height: 65px;
+    margin-left: 8px;
+    margin-top: 5px;
+    display:inline-block;
+}
+.group-player-name{
+    border: 0px solid black;
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+}
+.profileLeft{
+    border: 0px solid black;
+    display: inline-block;
+    width: 300px;
+    margin-top: 20px;
+    height: 500px;
+}
+.chatList{
+    border: 0px solid black;
+    border-top: 3px solid black;
+    width: 100%;
+    height: 330px;
+    background: white;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+}
+.chatPh{
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top:20px;
+    display:inline-block;
+}
+.nameChat{
+    display: inline-block;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+    position: absolute;
+    margin-top:37px;
+}
+.profileRight{
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    width: 380px;
+    height: 550px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 200px;
+}
+.group-enter{
+    border: 2px solid black;
+    height: 50px;
+    margin: 10px;
+    width: 94%;
+}
+.newsPr{
+    border:2px solid black;
+    margin: 15px;
+	width: 90%;
+    height: 400px;
+    background: white;
+}
+.newsImg{
+    border: 0px solid black;
+    width: 100%;
+    height: 40%;
+    margin-top: 5px;
+}
+.text{
+    border: 0px solid black;
+    width: 326px;
+    height: 40%;
+    margin: 5px;
+}
+/*News*/
+.enter{
+    border: 0px solid black;
+    width: 555px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+}
+.enter-text{
+    border-right: 1px solid rgba(105, 105, 105, 0.452);
+    max-width: 19%;
+    height: 100%;
+    float: left;
+    margin: 0;
+    margin-left: 1.5px;
+    cursor: pointer;
+    padding-left: 15.5px;
+    padding-right: 12px;
+}
+.text-photo{
+    width: 70px;
+    height: 50px;
+    margin-top: 10px;
+}
+.text-photo:hover{
+    margin-top: 5px;
+}
+.text-text{
+    text-align: center;
+    font-size: 20px;
+    color: #696969;
+}
+.state-list{
+    border: 0px solid black;
+    width: 550px;
+    min-height: 1000px;
+    margin-top: 30px;    
+    margin-bottom: 50px;
+    float: left;
+}
+.state{
+    border: 0px solid black;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+}
+.news-state-name{
+    height: 10%;
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #262626;
+}
+.news-state-photo{
+    border: 0px solid black;
+    width: 100%;
+    min-height: 20%;
+    max-height: 40%;
+}
+.news-state-photo1{
+    max-width: 100%;
+    min-height: 20%;
+    max-height: 50%;
+}
+.news-state-text{
+    border: 0px solid black;
+    width: 100%;
+    min-height: 20%;
+    max-height: 40%;
+    margin: 20px;
+}
+.news-state-buttons{
+    width: 100%;
+    height: 5%;
+
+}
+.news-state-buttons-heart{
+    width: 40px;
+    height: 40px;
+    background-image: url(Images/heart.png);
+    background-size: cover;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.news-state-buttons-say{
+    width: 40px;
+    height: 40px;
+    background-image: url(Images/news-say.png);
+    background-size: cover;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.news-state-coments{
+    cursor: pointer;
+    float: right;
+    width: 60%;
+    margin-right: 10px;
+    margin-top:10px;
+}
+.Coments{
+    border-top: 3px solid black;
+    width: 300px;
+    height: 300px;
+    margin-left: 570px;
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    background-color: white;
+    position: fixed;
+}
+.Coments-input{
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.Coment{
+    border: 0.1px solid white;
+    margin-top: 10px;
+}
+.Coment-avatar{
+    border: 0px solid white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+.Coment-nickname{
+    font-size: 12.5px;    
+    margin: 0;
+    margin-left: 5px;
+    color: #5c0099;
+    font-weight: 700;
+    float: left;
+}
+.Coment-text{
+    font-size: 13px;
+    margin: 0px;
+    margin-top: 18px;
+    margin-left: 43px;
+}
+.repost{
+    float: right;
+    display: none;
+    width: 35%;
+    height: 300px;
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    background-color: white;
+}
+.repost-profile{
+    width: 100%;
+    height: 20%;
+    border: 1px solid rgba(0, 0, 0, 0.589);;
+}
+.repost-profile-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 5px;
+    float: left;
+    background-image: url(Images/Friends/Italia.png);
+    background-size: cover;
+}
+.repost-profile-text{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.589);
+}
+.repost-profile-img:hover{
+    background-image: url('Images/send.png');
+    background-size: cover;
+    cursor: pointer;
+}
+/*Чаты и соообщения*/
+.Chat-block{
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    border-top: 4px solid black;
+    width: 550px;
+    height: 800px;
+    background-color: white;
+    float: left;
+    display: none;
+}
+.Chat-body{
+    border: 0px solid black;
+    margin: 10px;
+    width:  530px;
+    height: 700px;
+    padding: 15px;
+}
+.Chat-body-messange{
+    border: 1px solid white;
+    margin-top:20px; 
+}
+.body-messange-img{
+    border: 0px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    float: left;
+}
+.body-messange-nickname{
+    font-size: 12.5px;    
+    margin: 0;
+    margin-left: 10px;
+    color: #5c0099;
+    font-weight: 700;
+    float: left;
+}
+.body-messange-text{
+    font-size: 13px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.Chat-input{
+    border: 0px solid black;
+    margin: 10px;
+    margin-top: 20px;
+    width:  530px;
+    height: 55px;
+}
+.Chat-input-icon{
+    height: 100%;
+    width: 9%;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.Chat-input-input{
+    width: 80%;
+    height: 80%;
+    outline-color: #262626;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.Chat-input-smile{
+    height: 90%;
+    width: 9%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.myChats{
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    border-top: 3px solid black;
+    height: 310px;
+    width: 300px;
+    float: right;
+    margin-right: 30px;
+    background-color: white;
+}
+.myChats-h{
+    text-align: center;
+}
+.MyChat{
+    width: 100%;
+    height: 50px;
+}
+.MyChat-name{
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.NewsChats{
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    border-top: 3px solid black;
+    height: 360px;
+    width: 300px;
+    float: right;
+    margin-right: 30px;
+    background-color: white;
+    margin-top: 50px;
+}
+.NewsChats-h{
+    text-align: center;
+}
+.NewChat{
+    width: 100%;
+    height: 50px;
+}
+.NewChat-name{
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+/*Setting*/
+.setting{
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+    background-color: white!important;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+.setting-label{
+    margin-right: 10px;
+    text-align: left;
+    margin-left:15px;
+}
+.setting-text{
+   float: right;
+}
+.setting-radio{
+    float: right;
+    margin-right: 70px;
+    margin-top: 9px;
+}
+.label-set{
+    float: right;
+    margin-right: 20px;
+}
+.color{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+#red{
+    background-color: #e74c3c;
+}
+#blue{
+    background-color: #00aaff;
+}
+#green{
+    background-color: #2ecc71;
+}
+#purple{
+    background-color: #9b59b6;
+}
+#yelow{
+    background-color: #f39c12;
+}
+/*ФОто и другой бред*/
+.Donald{
+    background-image: url(Images/Friends/trump.png);
+    background-size: cover;
+}
+.Petr{
+    background-image: url(Images/Friends/jock_photo1.png);
+    background-size: cover;
+}
+.Frank{
+    background-image: url(Images/Friends/Germany.png);
+    background-size: cover;
+}
+.Emmanuel{
+    background-image: url(Images/Friends/Francua.png);
+    background-size: cover;
+}
+.Miloš{
+    background-image: url(Images/Friends/Italia.png);
+    background-size: cover;
+}
+.明仁{
+    background-image: url(Images/Friends/Ipan.png);
+    background-size: cover; 
+}
+.group-ukraine{
+    background-image: url(Images/ukraine.png);
+    background-size: cover;  
+}
+.group-america{
+    background-image: url(Images/america.png);
+    background-size: cover;  
+}
+#Laserbik-avatar{
+    background-image: url(Images/avatar.png);
+    background-size: cover;  
+}
+#Trump_chat{
+    display: block;
+}
+#TrumpC{
+    box-shadow: 0 4px 10px 4px rgba(0,0,0,0.2);
+}
+#Paris{
+    display: none;
+}
+.index2
+{
+width: 2000px;
+height:1150px;
+border: 3px solid black;
+margin-left: 20px;
+margin-top: 85px;
+background-color: white;
+position: fixed;
+}
+.index21
+{
+width: 1000px;
+height:120px;
+border: 3px solid black;
+position: fixed;
+}
+.index22
+{
+width: 964px;
+height:1000px;
+margin-top: 135px;
+margin-left: 15px;
+border: 3px solid black;
+position: fixed;
+}
+
+.phone
+{
+    width: 450px;
+    height:550px;
+    margin-top: 150px;
+    margin-left: 1400px;
+}
+#group-america-photo{
+    background-image: url(Images/group2-photo1.jpg);
+    background-size: cover;
+}
+#group-america-photo1{
+    background-image: url(Images/group2-photo.png);
+    background-size: cover;
+}
+#group-america-photo2{
+    background-image: url(Images/Tramp-group.jpg);
+    background-size: cover;
+}
+#group-america-photo3{
+    background-image: url(Images/Group-photo3.jpg);
+    background-size: cover;
+}
+#group-Chex-photo
+{
+    background-image: url(Images/Praga.jpg);
+    background-size: cover;
+}
+#group-Chex-photo1
+{
+    background-image: url(Images/225px-Prezident_Zeman_MSV.jpg);
+    background-size: cover;
+}
+#group-Chex-photo2
+{
+    background-image: url(Images/Chexia.jpg);
+    background-size: cover;
+}
+#group-Chex-photo3
+{
+    background-image: url(Images/images121.jpg);
+    background-size: cover;
+}
+#group-France-photo
+{
+    background-image: url(Images/Mac.jpeg);
+    background-size: cover;
+}
+#group-France-photo1
+{
+    background-image: url(Images/160529_Vozlozhenie_tsvetov_u_konsulystva_Frantsii_Ekaterinburg_flag_frantsii_250x0_4256.2837.0.0.jpg);
+    background-size: cover;
+
+}
+#group-France-photo2
+{
+    background-image: url(Images/imageel.jpg);
+    background-size: cover;
+}
+#group-France-photo3
+{
+    background-image: url(Images/Arcade.jpg);
+    background-size: cover;
+}

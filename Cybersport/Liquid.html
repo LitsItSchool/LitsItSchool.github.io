@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Liquid</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="site.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOGOTYPE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEAM</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOURNAMENTS</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="team.html" class="w3-bar-item w3-button">TEAM</a>
+        <a href="tournir.html" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div id="band"></div>
+
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Liquid/team.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+
+<!-- Team Container -->
+<div id="tour"></div>
+
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>Сomposition:</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="Liquid/nitr0.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Nickname: nitr0</h3>
+  <p>Player</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Liquid/NAF.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Nickname: NAF</h3>
+  <p>Player</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Liquid/EliGe.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Nickname:EliGE</h3>
+  <p>Player</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Liquid/TACO.png" alt="Captain" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Nickname:TACO</h3>
+  <p><a href="#">Captain</a></p>
+</div>
+
+
+<div class="w3-quarter">
+  <img src="Liquid/Twissst.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Nickname:Twistzz</h3>
+  <p>Player</p>
+</div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div id="contact"></div>
+<div id="contact"></div>
+
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>Team Liquid is a multi-gaming e-sports organization, founded in 2000 in the Netherlands. Initially, the team was a clan for the StarCraft: Brood War game, in 2010 switching to StarCraft 2. At the end of 2012, the organization signed the Dota 2 squad, and in 2017 won the largest international Dota 2 tournament The 2017 International, with the largest for the whole history of eSports prize money. In early 2015, the organization Denial eSports abandoned the composition of the Counter-Strike: Global Offensive. It was then that Team Liquid and picked up the team. For them, he became the first in the discipline of Counter-Strike, as previously the Team Liquid banners were not presented on the CS-scene. Changes to the roster often accompanied the team. In the spring of 2016, a famous player and streamer from Ukraine, s1mple, performed for her.
+
+
+</p>
+
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Liquid/win1.jpg" alt="Турнир1" style="width:100%" height="196px">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>
+        Astralis defeated Fnatic with a 2: 1 score and advanced to the Intel Extreme Masters XIII Chicago final. There, the Danish team will meet with Team Liquid, which had previously been knocked out of the FaZe Clan tournament.
+
+        
+        IEM Chicago 2018 runs from November 6 to 11. The prize fund of the tournament is $ 250 thousand.
+
+</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Liquid/win2.jpg" alt="Турнир2" style="width:100%" height="196px">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>
+        
+mousesports defeated NRG with a 2: 0 score and advanced to the Intel Extreme Masters XIII New York final. There, the Danish team will meet with Team Liquid, which had previously been knocked out of the Gambit
+tournament.
+
+        
+        ESL One New York 2018 runs from November 6 to 11. The prize fund of the tournament is $ 50 thousand.
+
+</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Liquid/win3.jpg" alt="Турнир3" style="width:100%" height="196px">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>
+        Astralis defeated mousesports, while Team Liquid was stronger than Natus Vincere in the semifinals of ELEAGUE CS: GO Premier 2018. Both matches ended with a score of 2: 0.
+
+        ELEAGUE CS:GO Premier 2018 The prize fund of the tournament is $ 250 thousand.
+
+</p>
+
+  </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

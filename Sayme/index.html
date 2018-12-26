@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="top">
+        <p class="logo" >Say me</p>
+        
+        <input type="search" placeholder="Look for the past in the future" class="search">
+
+        <div class="icon">
+        <img src="Images/Profile.png" alt="" class="profileButton jump"  onclick="profileNotification()"  >
+        <a href="friends.html"><img src="Images/Friends.png" alt="Friends" class="FriendsButton jump"></a>
+        <a href="SMS.html"><img src="Images/Chat.png" alt="Chat" class="ChatsButton jump"></a>
+        <a href="groups.html"><img src="Images/Groups.png" alt="Groups" class="GroupsButton jump"></a>
+        <a href="News.html"> <img src="Images/news.png" alt="" class="NewsButton jump" ></a>
+        </div>
+        
+    </div>
+    
+    <div class="Right">
+        <div class="friendR">
+                <div class="friendR-photo-block">
+                        <img src="images/Friends/jock_photo1.png" alt="" class="friendR-photo" onclick="OpenSMSR()">
+                </div>
+        </div>
+        <div id="SMSR">
+            <div class="SMSR-setting">
+                Петро Порошенко
+                <div class="CloseSMSR" onclick="CloseSMSR()">x</div>
+            </div>
+            <div class="SMS">
+                
+            </div>
+            <div class="EnterR" >
+                <input type="text" class="EnterR-input" placeholder="Enter text...">
+            </div>
+        </div>
+    </div>
+
+    <ul id="profile" type="none" >
+        <li><a href="index.html">My profile</a></li><hr>
+        <li><a href="setting.html" style="color:black;"><p>Настройки</p></a></li>
+        <li><a href="setting.html#section2" style="color:black;"><p>Персонализация</p></a></li>    <hr>       
+        <li><p>Выход</p></li>
+     </ul>
+    
+     <div class="feedback-block">
+            <img src="Images/feedback.png"  alt="" class="feedback-img" onclick="OpenFeedback()">
+            <div class="feedback-chat-block" id="feedback">
+                <div class="feedback-chat"><p class="feedback-say">>Hello,you need help?</p><div class="feedback-close" onclick="CloseFeedback()">x</div></div>
+                <input type="text" class="feedback-input" placeholder="Enter text..">
+            </div>
+        </div>
+
+<div class="LeftAndRight" onclick="СloseProfileMenu()">
+    <div class="profileTop">
+                <img src="Images/avatar.png" alt="ERROR" class="profilePh rounded-circle">
+                <div class="name-block">
+                <p id="name">Дмитрий Илюшин</p>
+                <p id="Nickname">#Laserbik</p>
+                <p id="profile-status">The most sexual embodiment of emotions (on the Internet XD)</p>
+                </div>
+    </div> 
+
+    <div>
+        <div class="photoList container" id="photo" onclick="OpenPhoto()"></div>
+        <div class="photoList" id="photo1"></div>
+        <div class="photoList" id="photo2"></div>
+        <div class="photoList" id="photo3"></div>
+    </div>
+
+<div>
+<div class="profileLeft">
+    <div class="group-player-list"> 
+            <div class="group-player">
+                <div class="group-player-photo Donald"></div>
+                <a href=""><p class="group-player-name">Donald</p></a>
+            </div>
+            <div class="group-player">
+                <div class="group-player-photo Petr"></div>
+                <a href=""><p class="group-player-name">Порошенко</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo Frank"></div>
+                    <a href=""><p class="group-player-name">Frank</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo Emmanuel "></div>
+                    <a href=""><p class="group-player-name">Emmanuel</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo Miloš "></div>
+                    <a href=""><p class="group-player-name">Miloš</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo 明仁"></div>
+                    <a href=""><p class="group-player-name">明仁</p></a>
+            </div>
+    </div>
+    <div class="groupList">
+
+        <div>  
+                <div class="groupPh group-ukraine"></div>
+                <a href="Groups/group1.html"><p class="nameGroup">Украина понад усе!</p></a>
+        </div>
+
+        <div>  
+                <div class="groupPh group-america"></div>
+                <a href="groups/group2.html"><p class="nameGroup">realDonaldTrump</p></a>
+        </div>
+    </div>
+</div>
+
+    <div class="profileRight">
+        <div class="state">
+            <p class="news-state-name">Laserbik</p>
+            <div class="news-state-photo">
+                <img src="images/photo5.png" class="news-state-photo1">
+            </div>
+            <div class="news-state-text"><p>I like Paris<3</p></div><hr style="margin:0;">
+            <div class="news-state-buttons">
+                <div class="news-state-buttons-heart"></div>
+                
+                <div class="news-state-buttons-say"></div>
+                <button class=" btn news-state-coments">Coments</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="b-popup" id="popup1">
+    <div class="b-popup-content">  
+        <div class="content-photo-block">
+            <div class="content-photo-left"></div>
+            <img src="images/photo.png" alt="" class="content-photo">
+            <div class="content-photo-right"></div>
+        </div>
+        <div class="content-coment-block">
+            <div class="content-profile">
+                <div class="content-profile-avatar" id="Laserbik-avatar"></div>
+                <p class="content-profile-nickname">Laserbik</p>
+                <p class="content-profile-data">15.09 в 17:30 </p>
+            </div>
+            <div class="content-profile-button">
+                <img src="Images/heart.png"  class="news-state-buttons-heart" alt="">
+                <img src="Images/news-say.png"  class="news-state-buttons-say" alt="">
+            </div>
+            <input type="text" class="content-coment-input">
+        </div>
+    </div>
+</div>
+</body>
+</html>

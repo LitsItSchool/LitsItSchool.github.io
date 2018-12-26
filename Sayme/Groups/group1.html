@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Украина понад усе!</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.js"></script>
+    <script src="../script.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="top">
+        <p class="logo" >Say me</p>
+        
+        <input type="search" placeholder="Look for the past in the future" class="search">
+
+        <div class="icon">
+        <img src="../Images/Profile.png" alt="" class="profileButton"  onclick="profileNotification()"  >
+        <a href="../friends.html"><img src="../Images/Friends.png" alt="Friends" class="FriendsButton"></a>
+        <a href="../SMS.html"><img src="../Images/Chat.png" alt="Chat" class="ChatsButton"></a>
+        <a href="../groups.html"><img src="../Images/Groups.png" alt="Groups" class="GroupsButton"></a>
+        <a href="../News.html"> <img src="../Images/news.png" alt="" class="NewsButton" ></a>
+        </div>
+        
+    </div>
+    
+    <div class="Right">
+        <div class="friendR">
+            <div class="friendR-photo-block">
+                <img src="../images/trump.png" alt="" class="friendR-photo" onclick="OpenSMSR()">
+            </div>
+            <div class="friendR-photo-block">
+                <img src="../images/jock_photo1.png" alt="" class="friendR-photo" onclick="OpenSMSR()">
+            </div>
+        </div>
+        <div id="SMSR">
+            <div class="SMSR-setting">
+                Владимир Путин
+                <div class="CloseSMSR" onclick="CloseSMSR()">x</div>
+            </div>
+            <div class="SMS">
+                
+            </div>
+            <div class="EnterR" >
+                <input type="text" class="EnterR-input" placeholder="Enter text...">
+            </div>   
+        </div>
+    </div>
+
+    <ul id="profile" type="none" >
+       <li><a href="../index.html">My profile</a></li><hr>
+       <li><p>Настройки</p></li>
+       <li><p>Персонализация</p></li><hr>
+       <li><p>Выход</p></li>
+    </ul>
+
+<div class="LeftAndRight">
+    <div class="profileTop">
+                <img src="../Images/ukraine.png" alt="ERROR" class="group-groupPh rounded-circle">
+                <div class="group-block">
+                <p id="group-name"><b>Украина понад усе!</b></p>
+                <p id="group-Nickname">546 139 подписчиков</p>
+                <p id="group-status">Україна це Європа!!</p>
+                </div>
+    </div> 
+
+    <div>
+        <div class="group-photo-list" id="group-photo"></div>
+        <div class="group-photo-list" id="group-photo1"></div>
+        <div class="group-photo-list" id="group-photo2"></div>
+        <div class="group-photo-list" id="group-photo3"></div>
+    </div>
+<div>
+<div class="profileLeft">
+    <div class="group-player-list"> 
+            <div class="group-player">
+                <div class="group-player-photo Donald"></div>
+                <a href=""><p class="group-player-name">Donald</p></a>
+            </div>
+            <div class="group-player">
+                <div class="group-player-photo Petr"></div>
+                <a href=""><p class="group-player-name">Порошенко</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo Frank"></div>
+                    <a href=""><p class="group-player-name">Frank</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo Emmanuel"></div>
+                    <a href=""><p class="group-player-name">Emmanuel</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo Miloš"></div>
+                    <a href=""><p class="group-player-name">Miloš</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo 明仁"></div>
+                    <a href=""><p class="group-player-name">明仁</p></a>
+            </div>
+    </div>
+</div>
+
+    <div class="profileRight">
+        <div class="state">
+            <div class="news-state-photo">
+                <img src="../images/ukraine-photo1.png" class="news-state-photo1">
+                <img src="../images/ukraine.png" class="news-state-photo1">
+            </div>
+            <div class="news-state-text"><p style="padding-right:30px;">У каждого из нас одна-единственная Родина. Во-первых, это то место, где мы родились и выросли, которое обходили своими ногами вдоль и поперёк. Во-вторых, Родина — это наша родная страна. Родину изменить нельзя, как нельзя изменить своих родителей, тех, кто дал нам жизнь. Я считаю, что где человек родился, там он и должен прожить свою жизнь и пройти до конца свой путь. Для меня Родиной является моя родная Украина.</p></div><hr style="margin:0;">
+            <div class="news-state-buttons">
+                <div class="news-state-buttons-heart" id="myObj" onclick="game()"></div>
+                <div class="news-state-buttons-say" ></div>
+                <button class=" btn news-state-coments">Coments</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>

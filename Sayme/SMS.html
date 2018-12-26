@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chats</title>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="top" id="top">
+        <p class="logo" >Say me</p>
+        
+        <input type="search" placeholder="Look for the past in the future" class="search" id="search">
+
+        <div class="icon">
+        <img src="Images/Profile.png" alt="" class="profileButton jump"  onclick="profileNotification()"  >
+        <a href="friends.html"><img src="Images/Friends.png" alt="Friends" class="FriendsButton jump"></a>
+        <a href="SMS.html"><img src="Images/Chat.png" alt="Chat" class="ChatsButton jump"></a>
+        <a href="groups.html"><img src="Images/Groups.png" alt="Groups" class="GroupsButton jump"></a>
+        <a href="News.html"> <img src="Images/news.png" alt="" class="NewsButton jump" ></a>
+        </div>
+        
+    </div>
+        
+    </div>
+    
+    <div class="Right">
+        <div class="friendR">
+            <div class="friendR-photo-block">
+                <img src="images/Friends/jock_photo1.png" alt="" class="friendR-photo" onclick="OpenSMSR()">
+            </div>
+        </div>
+        <div id="SMSR">
+            <div class="SMSR-setting">
+                    Петро Порошенкo
+                <div class="CloseSMSR" onclick="CloseSMSR()">x</div>
+            </div>
+            <div class="SMS">
+                
+            </div>
+            <div class="EnterR" >
+                <img src="images/SMS.png" class="SMSR-icon">
+                <input type="text" class="EnterR-input" placeholder="Enter text...">
+                <img src="images/smile.png" alt="" class="SMSR-smile">
+            </div>
+        </div>
+    </div>
+
+    <ul id="profile" type="none" >
+        <li><a href="index.html">My profile</a></li><hr>
+        <li><a href="setting.html" style="color:black;"><p>Настройки</p></a></li>
+        <li><a href="setting.html#section2" style="color:black;"><p>Персонализация</p></a></li>        <hr>   
+        <li><p>Выход</p></li>
+     </ul>
+
+     <div class="feedback-block">
+            <img src="Images/feedback.png"  alt="" class="feedback-img" onclick="OpenFeedback()">
+            <div class="feedback-chat-block" id="feedback">
+                <div class="feedback-chat"><p class="feedback-say">>Hello,you need help?</p><div class="feedback-close" onclick="CloseFeedback()">x</div></div>
+                <input type="text" class="feedback-input" placeholder="Enter text..">
+            </div>
+        </div>
+
+<div class="LeftAndRight">
+    <div class="Chat-block" id="Trump_chat">
+        <div class="Chat-body" >
+            <div class="Chat-body-messange">
+                <div class="body-messange-img" id="Laserbik-avatar"></div>
+                <p class="body-messange-nickname">Laserbik</p>
+                <p class="body-messange-text">Hello</p>
+            </div>
+            <div class="Chat-body-messange">
+                <div src="images/avatar.png" class="body-messange-img Donald" alt=""></div>
+                <p class="body-messange-nickname">Donald J. Trump</p>
+                <p class="body-messange-text">Hi^^</p>
+            </div>            
+            <div class="Chat-body-messange">
+                <div class="body-messange-img" id="Laserbik-avatar"></div>
+                <p class="body-messange-nickname">Laserbik</p>
+                <p class="body-messange-text">How are you?</p>
+            </div>
+            <div class="Chat-body-messange">
+                <div src="images/avatar.png" class="body-messange-img Donald" alt=""></div>
+                <p class="body-messange-nickname">Donald J. Trump</p>
+                <p class="body-messange-text">Normally. We are preparing nuclear missiles in Russia:D</p>
+            </div>    
+            <div class="Chat-body-messange">
+                <div class="body-messange-img" id="Laserbik-avatar"></div>
+                <p class="body-messange-nickname">Laserbik</p>
+                <p class="body-messange-text">Mmm...good</p>
+            </div>
+        </div>
+        <div class="Chat-input">
+            <img src="images/SMS.png" class="Chat-input-icon">
+            <input type="text" class="Chat-input-input" placeholder="Enter text...">
+            <img src="images/smile.png" alt="" class="Chat-input-smile">
+        </div>
+    </div>
+    <div class="Chat-block" id="Ukraine_chat">
+        <div class="Chat-body" >
+            <div class="Chat-body-messange">
+                <div class="body-messange-img Petr" id="Ukraine-avatar"></div>
+                <p class="body-messange-nickname">Петро Порошенко</p>
+                <p class="body-messange-text">Добрий день українці!</p>
+            </div>
+            <div class="Chat-body-messange">
+                <div src="images/avatar.png" class="body-messange-img"id="Laserbik-avatar" alt=""></div>
+                <p class="body-messange-nickname">Laserbik</p>
+                <p class="body-messange-text">Слава Українi!</p>
+            </div>            
+            <div class="Chat-body-messange">
+                <div class="body-messange-img 明仁"）"></div>
+                <p class="body-messange-nickname">明仁（平成天皇）</p>
+                <p class="body-messange-text">Гэроям слава!</p>
+            </div>
+            <div class="Chat-body-messange">
+                <div src="images/avatar.png" class="body-messange-img Petr" alt=""></div>
+                <p class="body-messange-nickname">Петро Порошенко</p>
+                <p class="body-messange-text">Чи будемо пiднiмати країну з колiн?</p>
+            </div>    
+            <div class="Chat-body-messange">
+                <div class="body-messange-img" id="Laserbik-avatar"></div>
+                <p class="body-messange-nickname">Laserbik</p>
+                <p class="body-messange-text">Це без мене</p>
+            </div>
+            <div class="Chat-body-messange">
+                <div src="images/avatar.png" class="body-messange-img Frank" alt=""></div>
+                <p class="body-messange-nickname">Frank-W. Steinmeier</p>
+                <p class="body-messange-text">Пiдтримую</p>
+            </div>  
+            <p style="text-align: center">Пользователь Laserbik покинув чат </p>
+            <p style="text-align: center">Пользователь Frank-W. Steinmeier покинув чат </p>
+            <div class="Chat-body-messange">
+                <div class="body-messange-img 明仁"）"></div>
+                <p class="body-messange-nickname">明仁（平成天皇）</p>
+                <p class="body-messange-text">Може запустимо українське аниме?</p>
+            </div>
+            <div class="Chat-body-messange">
+                <div src="images/avatar.png" class="body-messange-img Petr" alt=""></div>
+                <p class="body-messange-nickname">Петро Порошенко</p>
+                <p class="body-messange-text">От дiдько!</p>
+            </div>  
+        </div>
+        <div class="Chat-input">
+            <img src="images/SMS.png" class="Chat-input-icon">
+            <input type="text" class="Chat-input-input" placeholder="Enter text...">
+            <img src="images/smile.png" alt="" class="Chat-input-smile">
+        </div>
+    </div>
+    <div class="myChats" >
+            <h3 class="myChats-h">My chats</h1><hr style="margin:0">
+                <div class="MyChat">
+                    <p class="MyChat-name" id="MyChatUkraine" onclick="OpenUkraine()" >Ukraine Chat</p>
+                </div>
+                <div class="MyChat">
+                    <p class="MyChat-name">American Chat</p>
+                </div>
+                <div class="MyChat" >
+                    <p class="MyChat-name" onclick="OpenTrump()" id="TrumpC">Donald J. Trump</p>
+                </div>
+                <div class="MyChat" >
+                    <p class="MyChat-name">明仁（平成天皇）</p>
+                </div>
+                <div class="MyChat" >
+                    <p class="MyChat-name">Capture the world</p>
+                </div>
+    </div>
+    <div class="NewsChats">
+        <h3 class="NewsChats-h">New chats</h1><hr>
+            <div class="NewChat" id="chat-Ukraine">
+                <p class="NewChat-name">Russia its wanderful</p>
+            </div>
+            <div class="MyChat" id="chat-Ukraine">
+                <p class="NewChat-name">Minecraft community</p>
+            </div>
+            <div class="MyChat" id="chat-Ukraine">
+                <p class="NewChat-name">i <3 anime</p>
+            </div>
+            <div class="MyChat" id="chat-Ukraine">
+                <p class="NewChat-name">Looking for friends</p>
+            </div>
+            <div class="MyChat" id="chat-Ukraine">
+                <p class="NewChat-name">Yutubery</p>
+            </div>
+            <div class="MyChat" id="chat-Ukraine">
+                <p class="NewChat-name">My class</p>
+            </div>
+</div>
+</body>
+</html>

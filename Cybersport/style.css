@@ -1,0 +1,159 @@
+/*логотипы*/
+head{
+    background-color:#191919;
+}
+.center-img {
+    display: block;
+    margin-left: 175px;
+    width: 900px;
+  }
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+/*меню*/
+
+body{
+    background-color:#191919;
+
+}
+header{
+    margin-top: 200px;
+    font-family: Cuprum, Arial, Helvetica, sans-serif;
+   }  
+.dws-menu *{
+    margin: 0;
+    padding: 0;
+   }
+   .dws-menu ul,  
+   .dws-menu ol{
+    list-style: none;
+   } 
+   .dws-menu > ul{
+    display: flex;
+    justify-content: center;
+   }    
+   .dws-menu > ul li a{
+    display: block;
+    background: #c9c9c9; 
+    background: -moz-linear-gradient(top,  #c9c9c9 0%, #f6f6f6 2%, #c4c5c7 98%, #757577 100%);
+    background: -webkit-linear-gradient(top,  #c9c9c9 0%,#f6f6f6 2%,#c4c5c7 98%,#757577 100%); 
+    background: linear-gradient(to bottom,  #c9c9c9 0%,#f6f6f6 2%,#c4c5c7 98%,#757577 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 ); 
+    
+    padding: 15px 72px 15px 50px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform:uppercase;
+    transition: all 0.3s ease;
+   }        
+   .dws-menu > ul li{
+    position: relative;
+    border-right: 1px solid #c7c8ca;
+   }  
+
+   .dws-menu > ul li:first-child{
+    border-left: 1px solid #b2b3b5;
+   }
+   .dws-menu > ul li:last-child{
+    border-right: 1px solid #babbbd;
+   }  
+   .dws-menu li a:hover{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e1e5+0,454547+2,454547+98,e0e1e5+100 */
+    background: #e0e1e5; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e0e1e5 0%, #454547 2%, #454547 98%, #e0e1e5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #e0e1e5 0%,#454547 2%,#454547 98%,#e0e1e5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #e0e1e5 0%,#454547 2%,#454547 98%,#e0e1e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e1e5', endColorstr='#e0e1e5',GradientType=0 ); /* IE6-9 */
+    
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+   }      
+
+
+   /*sub menu*/
+.dws-menu li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+   }   
+.dws-menu li > ul li{
+border: 1px solid #c7c8ca;
+}    
+.dws-menu li > ul li a{
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+ }    
+.dws-menu li > ul li ul{
+    position: absolute;
+    right: -150px;
+    top: 0;
+   } 
+   .dws-menu li:hover > ul{
+    display: block;
+   }  
+
+/*колонки*/
+
+
+.layout { 
+    width:1000px; 
+    margin:0 auto; 
+   margin-left:200px;
+}
+.col1 { 
+   background: #272727; 
+   width: 400px;  
+   margin-left: -75px;
+   padding: 0;
+   display:inline-block;
+}
+.col2 { 
+   background: #272727; 
+   width: 400px;
+   margin: 0;
+   padding: 0;
+   display:inline-block;
+
+}
+.col3 { 
+   background: #272727; 
+   width: 400px;
+   margin: 0;
+   padding: 0;
+   display:inline-block;
+}
+p{
+   background-color: #272727;
+}
+
+/*line*/
+
+hr {
+   border: none; /* Убираем границу */
+   background-color: white; /* Цвет линии */
+   color: white; /* Цвет линии для IE6-7 */
+   height: 2px; /* Толщина линии */
+  }
+
+  .pon{
+    background: #272727; 
+    width: 1000px;
+    margin-left: -75px;
+    padding: 0;
+    display:inline-block;
+}
+
+.cyber
+{
+   border: 2px solid #7d7f83 ;
+}
+
+
+
+

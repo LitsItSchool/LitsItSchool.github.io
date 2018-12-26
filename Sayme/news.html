@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>News</title>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body >
+    <div class="top" id="top">
+        <p class="logo" >Say me</p>
+        
+        <input type="search" placeholder="Look for the past in the future" class="search" id="search">
+
+        <div class="icon">
+        <img src="Images/Profile.png" alt="" class="profileButton jump"  onclick="profileNotification()"  >
+        <a href="friends.html"><img src="Images/Friends.png" alt="Friends" class="FriendsButton jump"></a>
+        <a href="SMS.html"><img src="Images/Chat.png" alt="Chat" class="ChatsButton jump"></a>
+        <a href="groups.html"><img src="Images/Groups.png" alt="Groups" class="GroupsButton jump"></a>
+        <a href="News.html"> <img src="Images/news.png" alt="" class="NewsButton jump" ></a>
+        </div>
+        
+    </div>
+        
+    </div>
+    
+    <div class="Right">
+        <div class="friendR">
+            <div class="friendR-photo-block">
+                <img src="images/Friends/jock_photo1.png" alt="" class="friendR-photo" onclick="OpenSMSR()">
+            </div>
+        </div>
+        <div id="SMSR">
+            <div class="SMSR-setting">
+                    Петро Порошенкo
+                <div class="CloseSMSR" onclick="CloseSMSR()">x</div>
+            </div>
+            <div class="SMS">
+                
+            </div>
+            <div class="EnterR" >
+                <img src="images/SMS.png" class="SMSR-icon">
+                <input type="text" class="EnterR-input" placeholder="Enter text...">
+                <img src="images/smile.png" alt="" class="SMSR-smile">
+            </div>
+        </div>
+    </div>
+
+    <ul id="profile" type="none" >
+        <li><a href="index.html">My profile</a></li><hr>
+        <li><a href="setting.html" style="color:black;"><p>Настройки</p></a></li>
+        <li><a href="setting.html#section2" style="color:black;"><p>Персонализация</p></a></li>    <hr>       
+        <li><p>Выход</p></li>
+     </ul>
+
+     <div class="feedback-block">
+         <img src="Images/feedback.png"  alt="" class="feedback-img" onclick="OpenFeedback()">
+         <div class="feedback-chat-block" id="feedback">
+             <div class="feedback-chat"><p class="feedback-say">>Hello,you need help?</p><div class="feedback-close" onclick="CloseFeedback()">x</div></div>
+             <input type="text" class="feedback-input" placeholder="Enter text..">
+         </div>
+     </div>
+
+<div class="LeftAndRight">
+    <div class="news">
+        <div class="enter">
+            <div class="enter-text"><img src="images/text.png"  class="text-photo" alt=""><p class="text-text">Text</p></div>
+            <div class="enter-text"><img src="images/foto.png" style="width:60px;"  class="text-photo" alt=""><p class="text-text">Photo</p></div>
+            <div class="enter-text"><img src="images/news-say.png" style="height: 55px;width: 60px;"  class="text-photo" alt=""><p class="text-text">Chat</p></div>
+            <div class="enter-text"><img src="images/video.png" style="height: 55px;width: 60px;"  class="text-photo" alt=""><p class="text-text">Video</p></div>
+            <div class="enter-text"><img src="images/audio.png" style="height: 55px;width: 60px;"  class="text-photo" alt=""><p class="text-text">Audio</p></div>
+            <div class="enter-text" style="border:0;"><img src="images/ads.png" style="height: 55px;width: 60px;"  class="text-photo" alt=""><p class="text-text">Ad</p></div>
+        </div>
+        <div class="state-list">
+            <div class="state">
+                <p class="news-state-name">Laserbik</p>
+                <div class="news-state-photo">
+                    <img src="images/photo5.png" class="news-state-photo1">
+                </div>
+                <div class="news-state-text"><p>I like Paris<3</p></div><hr style="margin:0;">
+                <div class="news-state-buttons">
+                    <div class="news-state-buttons-heart" id="Like" onclick="Like()"></div>
+                    
+                    <div class="news-state-buttons-say" onclick="repost()"></div>
+                    <button class=" btn news-state-coments" onclick="OpenComentsParis()">Coments</button>
+                </div>
+            </div>
+            <div class="state">
+                <p class="news-state-name">Trump</p>
+                <div class="news-state-photo">
+                    <img src="images/photo2.png" class="news-state-photo1">
+                    <img src="images/photo1.png" class="news-state-photo1">
+                </div>
+                <div class="news-state-text"><p style="padding-right:30px;">Nature gives man everything necessary for his existence. But, often we do not appreciate these gifts, without thinking, we pick flowers and branches in the trees, without giving anything in return. It seems to us that this is a trifle, because new ones will grow. Turning around, it's hard not to notice - how beautiful the nature is all the same. We just need to learn to appreciate it!</p></div><hr style="margin:0;">
+                <div class="news-state-buttons">
+                    <div class="news-state-buttons-heart" id="Like1" onclick="Like1()"></div>
+                    <div class="news-state-buttons-say" onclick="repost()"></div>
+                    <button class=" btn news-state-coments">Coments</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Coments" id="Paris">
+        <input type="text" class="Coments-input" placeholder="Enter text...">
+        <div class="Coment">
+            <div class="Coment-avatar Donald" id="Trump"></div>
+            <div class="Coment-nickname">Trump</div>
+            <div class="Coment-text">Nice photo!</div>
+        </div>
+        <div class="Coment">
+            <div class="Coment-avatar Emmanuel"></div>
+            <div class="Coment-nickname">Emmanuel</div>
+            <div class="Coment-text">I love Paris too!</div>
+        </div>
+    </div>
+
+    <div class="repost" id="repost">
+            
+        <div class="repost-profile">
+            <div alt="" class="repost-profile-img"></div>
+            <p class="repost-profile-text">Miloš Zeman</p>
+        </div>
+        <div class="repost-profile">
+            <div alt="" class="repost-profile-img Petr"></div>
+            <p class="repost-profile-text">Петро Порошенко</p>
+        </div>
+        <div class="repost-profile">
+            <div alt="" class="repost-profile-img Donald"></div>
+            <p class="repost-profile-text">Donald J. Trump</p>
+        </div>
+        <div class="repost-profile">
+            <div alt="" class="repost-profile-img Frank"></div>
+            <p class="repost-profile-text">Frank-W. Steinmeier</p>
+        </div>
+        <div class="repost-profile">
+            <div alt="" class="repost-profile-img Emmanuel"></div>
+            <p class="repost-profile-text">Emmanuel Macron</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

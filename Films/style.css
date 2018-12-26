@@ -1,0 +1,177 @@
+.input 
+{
+    margin-left:34%;
+    display: inline-block;
+    border: 4px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: brown;
+    box-shadow: inset 0 0 10px 0 white;
+    width: 600px;
+
+}
+.text
+{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.reg
+{ 
+ 
+    margin: 95%;
+    margin-bottom: 250px;
+    color: rgb(255, 255, 255); 
+    font-size: 25px;
+    text-decoration:underline overline;
+    position: relative;
+    bottom: 160px;
+    right: 575px;
+}
+
+.width
+{
+width: 250px;
+}
+.borderL
+{
+    float: left;
+    height: 600px;
+    width: 200px;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+    background-color: brown;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+.borderR
+{
+   
+    float: right;
+    height: 600px;
+    width: 200px;
+    border-top: 0px solid black;
+    border-left: 0px solid black;
+    border-bottom: 0px solid black;
+    background-color: brown;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+    
+}
+
+.myjik
+{
+    color: black;
+    margin-right: 55%;
+
+    
+}
+
+.gun2
+{
+    text-decoration: none; 
+    color: black; 
+    margin-right: 55%;
+} 
+.leftimg2
+{
+    float: left;
+}
+.bord
+{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    
+}
+
+.martin
+{
+    text-decoration: none; 
+    color: black; 
+    margin-right: 55%;   
+}
+.roy
+{
+    text-decoration: none; 
+    color: black; 
+    margin-right: 55%;   
+    
+}
+.tarantino
+{
+    text-decoration: none; 
+    color: black; 
+    margin-right: 55%;    
+}
+.card
+{
+    right: 100px;
+    width: 1305px;
+    background-color: brown;
+    margin-bottom: 25px;
+}
+
+.canvas
+{
+    margin-left: 25%;
+    bottom: 50%;
+}
+.logos
+{
+  
+    margin-bottom: 50px;
+    bottom: 50px;
+}
+/* p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+.bordtext
+{
+font-family: Impact;
+text-decoration:none;
+font-size: 25px;
+}
+
+a
+{
+    color:white;
+    text-decoration: none; 
+}
+
+.card-title
+{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.spider-man
+{
+    margin-top: 50px;
+    height: 350px;
+    margin-right: 15px;
+    position: none;
+}
+.class 
+{
+    width: 350px ;
+    height: 200px ;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.startext
+{
+    
+}
+.h
+{
+    font-size: 20px;
+    color: yellow;
+}

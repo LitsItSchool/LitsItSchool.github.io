@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Cybersport</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="site.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOGOTYPE</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TEAM</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOURNAMENTS</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">CS:GO <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="team.html" class="w3-bar-item w3-button">TEAM</a>
+        <a href="tournir.html" class="w3-bar-item w3-button">TOURNAMENTS</a>
+        <a href="sats.html" class="w3-bar-item w3-button">STATISTICS</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div id="band"></div>
+<div class="w3-display-container w3-animate-opacity">
+  <img src="Team/енсе/ENCE.jpg" alt="boat" style="width:100%;min-height:350px;max-height:700px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Oh snap! We just showed you a modal..</h4>
+      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Cool huh? Ok, enough teasing around..</p>
+      <p>Go to our <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>Modal footer</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div id="tour"></div>
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>OUR TEAM</h2>
+<p>Сomposition:</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="Team/енсе/Aleksib.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Aleksib</h3>
+  <p>Player</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Team/енсе/sergej.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>sergej</h3>
+  <p>Player</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Team/енсе/Aerial.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Aerial</h3>
+  <p>Player</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Team/енсе/allu.png" alt="Captain" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>allu</h3>
+  <p><a href="#">Captain</a></p>
+</div>
+
+
+<div class="w3-quarter">
+  <img src="Team/енсе/xseveN.png" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>xseveN</h3>
+  <p>Player</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="Team/енсе/Twista.jpg" alt="Player" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>Twista</h3>
+  <p>Coach</p>
+</div>
+
+
+
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div id="contact"></div>
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Our Work</h2>
+<p>The composition of NaVi for Counter-Strike 1.6 was considered one of the strongest in the world. In the fall of 2012, before the start of the fourth season of the StarSeries, Natus Vincere switched to a new discipline. At first, the transition was given to the players hard, and they could not get to the SLTV finals. But gradually NaVi managed to return to the number of the best teams in CS.
+</p>
+<p>ENCE eSports was first founded in April 2013 by Petri "Procyon" Hämälä of Peliliiga, Toni "Chibulis" Jarkima, formerly of eXelon Gaming and Teemu "wabbit" Hiilinen of SEUL. On April 13, it was announced that the team known as TOOMUCHVIDEOGAMES would join the organization as their first CS:GO team. The relationship between the players and the organization soon broke down, however, mostly stemming from the looming instability of the roster, and the team was finally removed from ENCE in late May. On December 23, 2015, ENCE's Facebook header was changed to one with a scrambled iteration of their logo, with a text saying "rebooting" thus adding more fuel to the fire of rumors of former NiP member allu creating a new fully Finnish team. After a number of cryptic tweets from various notable members of the Finnish esports community, most notably one by suNny, featuring him making a thumbs up in front of a contract with ENCE's logo, on January the organization formally announced their return on their website. As frequently rumored, the team was confirmed to feature allu plus the consistent MIXCAT quartet of suNny, xartE, Juhob and stonde.
+</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/енсе/win1.jpg" alt="Турнир1" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 1</h3>
+  <h4>Tournament</h4>
+  <p>In the heavy final of IeSF World Championship 2016, the team from the European ENCE won the Asian TYLOO with a score of 2-1 (de_mirage 16-14, de_cache 20-22 and de_train 16-11).</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/енсе/win2.jpeg" alt="Турнир2" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 2</h3>
+  <h4>Tournament</h4>
+  <p>In the very heavy final of StarSeries & i-League CS:GO Season 6, the team from the European ENCE won the CIS Vega Squadron with a score of 3-2 (de_train 14-16, de_inferno 16-6, de_dust 16-12, de_mirage 12-16 and de_overpass 16-9). 
+</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="Team/енсе/win3jpg.jpg" alt="Турнир3" style="width:100%">
+  <div class="w3-container">
+  <h3>Win 3</h3>
+  <h4>Tournament</h4>
+  <p>In the final of Assembly GameXpo 2018, the team from the European ENCE won the European HAVU Gaming with a score of 2-0 (de_dust 16-13 and de_nuke 16-8).</p>
+
+  </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <i class="fa fa-instagram w3-hover-opacity" ></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </footer>
+  
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

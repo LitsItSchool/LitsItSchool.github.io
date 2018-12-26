@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CS:GO</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.js"></script>
+    <script src="../script.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="top">
+        <p class="logo" >CS:GO</p>
+        
+        <input type="search" placeholder="Look for the past in the future" class="search">
+
+        <div class="icon">
+        <img src="../Images/Profile.png" alt="" class="profileButton"  onclick="profileNotification()"  >
+        <a href="../friends.html"><img src="../Images/Friends.png" alt="Friends" class="FriendsButton"></a>
+        <img src="../Images/Chat.png" alt="Chat" class="ChatsButton">
+        <a href="../groups.html"><img src="../Images/Groups.png" alt="Groups" class="GroupsButton"></a>
+        <a href="../News.html"> <img src="../Images/news.png" alt="" class="NewsButton" ></a>
+        </div>
+        
+    </div>
+    
+    <div class="Right">
+        <div class="friendR">
+            <div class="friendR-photo-block">
+                <img src="../images/trump.png" alt="" class="friendR-photo" onclick="OpenSMSR()">
+            </div>
+            <div class="friendR-photo-block">
+                <img src="../images/jock_photo1.png" alt="" class="friendR-photo" onclick="OpenSMSR()">
+            </div>
+        </div>
+        <div id="SMSR">
+            <div class="SMSR-setting">
+                Владимир Путин
+                <div class="CloseSMSR" onclick="CloseSMSR()">x</div>
+            </div>
+            <div class="SMS">
+                
+            </div>
+            <div class="EnterR" >
+                <input type="text" class="EnterR-input" placeholder="Enter text...">
+            </div>   
+        </div>
+    </div>
+
+    <ul id="profile" type="none" >
+       <li><a href="../index.html">My profile</a></li><hr>
+       <li><p>Настройки</p></li>
+       <li><p>Персонализация</p></li><hr>
+       <li><p>Выход</p></li>
+    </ul>
+
+<div class="LeftAndRight">
+    <div class="profileTop">
+                <img src="../Images/KGNVLUBH_400x400.jpg" alt="ERROR" class="group-groupPh rounded-circle">
+                <div class="group-block">
+                <p id="group-name"><b>CS:GO</b></p>
+                <p id="group-Nickname">19 348 509 подписчиков</p>
+                <p id="group-status">CS:GO Is the best game by Gaben</p>
+                </div>
+    </div> 
+
+    <div>
+        <div class="group-photo-list" id="group-photo"></div>
+        <div class="group-photo-list" id="group-photo1"></div>
+        <div class="group-photo-list" id="group-photo2"></div>
+        <div class="group-photo-list" id="group-photo3"></div>
+    </div>
+<div>
+<div class="profileLeft">
+    <div class="group-player-list"> 
+            <div class="group-player">
+                <div class="group-player-photo Donald"></div>
+                <p class="group-player-name"><a href="../Gaben-Chat.html">Donald</p></a>
+            </div>
+            <div class="group-player">
+                <div class="group-player-photo Petr"></div>
+                <a href=""><p class="group-player-name"><a href="../Petro-Chat.html">Порошенко</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo Frank"></div>
+                    <a href=""><p class="group-player-name">Frank</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo Emmanuel"></div>
+                    <a href=""><p class="group-player-name">Emmanuel</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo Miloš"></div>
+                    <p class="group-player-name"><a href="../Miloš-Chat.html">Miloš</p></a>
+            </div>
+            <div class="group-player">
+                    <div class="group-player-photo 明仁"></div>
+                    <a href=""><p class="group-player-name">明仁</p></a>
+            </div>
+    </div>
+</div>
+
+<div class="profileRight">
+    <input type="text" class="group-enter" ></input>
+    <div class="newsPr">
+        <p style="margin-top: 0px; margin-left:10px">Nickname</p>
+        <div class="newsImg">
+            <img src="" alt="" class="imageList">
+        </div>
+        <div class="text">
+            <p></p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+html, body {
+  height: 25%;
+ 
+}
+
+body {
+  background: brown;
+  overflow: visible;
+  /* background: no-repeat; */
+  background-size: 1920px;
+  /* background-sizepx; */
+}
+
+canvas {
+ width: 480px;
+ height: 150px;
+ border-radius: 50px;
+}

@@ -1,0 +1,157 @@
+.Black{
+    width: 50%;
+    height: 917px;
+    float: left;
+    display: inline-block;
+    background-color: black;
+}
+.White{
+    width: 46%;
+    height: 917px;
+    background-color: white;
+    display: inline-block;
+}
+.Logo1{
+    color: white;
+    margin: 0;
+    font-weight: 700px;
+    font-size: 50px;
+    float: right;
+    padding-right: 10px;
+}
+.Logo2{
+    color: black;
+    margin: 0;
+    font-weight: 700px;
+    font-size: 50px;
+    float: left;
+}
+.Login-password{
+    border: 0px solid black;
+    width: 350px;
+    height: 350px;
+    margin-left: 300px;
+    margin-top: 300px;
+}
+.Slogan1{
+    font-size: 27px;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+.Slogan2{
+    color: rgb(20, 23, 26);
+    font-size: 18px;
+    line-height: 24px;
+    margin: 48px auto;
+    margin-bottom: 16px;
+}
+.Login{
+    height: 50px;
+    width: 100%;
+    border-radius: 100px;
+    box-shadow: 0;
+    outline: none;
+    border-style: outset;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: black;
+    border: 1px solid black;
+    color: #fff;
+    margin-bottom: 16px;
+}
+/*1*/
+.Slogan3{
+    border: 0 solid white;
+    width: 420px;
+    height: 350px;
+    margin-left: 170px;
+    margin-top: 300px;
+}
+.Slogan{
+    width: 100%;
+    height: 60px;
+    margin: 0;
+}
+.Slogan3-1{
+    float: left;
+    width: 70px;
+}
+.Slogan3-1-text{
+    color: white;
+    padding-top: 10px;
+}
+.Slogan3-2{
+    float: left;
+    width: 60px;
+    left: 10px;
+    margin-right: 10px;
+    margin-left: 7px;
+}
+.Slogan3-2-text{
+    color: white;
+    padding-left: 30px;
+}
+/*Login*/
+.Login1{
+    width: 65%;
+    height: 30px;
+    margin-left: 10px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.Login1-text{
+    color: black;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    float: left;
+    margin-top: 10px;
+
+}
+.Password1{
+    width: 48%;
+    height: 30px;
+    margin-left: 10px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.Password1-text{
+    color: black;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+    float: left;
+}
+.Enter{
+    height: 50px;
+    width: 100%;
+    border-radius: 100px;
+    box-shadow: 0;
+    outline: none;
+    border-style: outset;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: black;
+    border: 1px solid black;
+    color: #fff;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+.Confirm{
+    width: 43%;
+}
+.Login:hover{
+    background: white;
+    border: 3px solid black;
+    color: black;
+    font-weight: 700;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="top" id="top">
+        <p class="logo" >Say me</p>
+        
+        <input type="search" placeholder="Look for the past in the future" class="search" id="search">
+
+        <div class="icon">
+        <img src="Images/Profile.png" alt="" class="profileButton jump"  onclick="profileNotification()"  >
+        <a href="friends.html"><img src="Images/Friends.png" alt="Friends" class="FriendsButton jump"></a>
+        <a href="SMS.html"><img src="Images/Chat.png" alt="Chat" class="ChatsButton jump"></a>
+        <a href="groups.html"><img src="Images/Groups.png" alt="Groups" class="GroupsButton jump"></a>
+        <a href="News.html"> <img src="Images/news.png" alt="" class="NewsButton jump" ></a>
+        </div>
+        
+    </div>
+    
+    <div class="Right">
+        <div class="friendR">
+                <div class="friendR-photo-block">
+                        <img src="images/Friends/jock_photo1.png" alt="" class="friendR-photo" onclick="OpenSMSR()">
+                </div>
+        </div>
+        <div id="SMSR">
+            <div class="SMSR-setting">
+                Петро Порошенко
+                <div class="CloseSMSR" onclick="CloseSMSR()">x</div>
+            </div>
+            <div class="SMS">
+                
+            </div>
+            <div class="EnterR" >
+                <input type="text" class="EnterR-input" placeholder="Enter text...">
+            </div>
+        </div>
+    </div>
+
+    <ul id="profile" type="none" >
+        <li><a href="index.html">My profile</a></li><hr>
+        <li><a href="setting.html" style="color:black;"><p>Настройки</p></a></li>
+        <li><a href="setting.html#section2" style="color:black;"><p>Персонализация</p></a></li>        <hr>   
+        <li><p>Выход</p></li>
+     </ul>
+
+<div class="LeftAndRight" onclick="СloseProfileMenu()">
+    <div class="container-fluid">
+        <div class="row">
+          <nav class="col-sm-3 col-4 navigator" id="myScrollspy">
+            <ul class="nav nav-pills flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" href="#section1">Setting</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section2">Personalization</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="col-sm-9 col-8">
+            <div id="section1" class="bg-success setting">    
+              <h3>Setting</h3><hr>
+              <label for="input" class="setting-label">Изменить Логин</label><input type="text" class="setting-text"><br><hr>
+              <label for="input" class="setting-label">Изменить Пароль</label><input type="text" class="setting-text"><br><hr>
+              <label for="input" class="setting-label">Изменить Электронную почту</label><input type="email" class="setting-text"><br><hr>
+              <label for="setting-radio" class="setting-label">Язык</label>
+              <input type="radio" name="radio" class="setting-radio" checked><label for="" class="label-set">Rus</label>
+              <input type="radio" name="radio" class="setting-radio"><label for="" class="label-set">Eng</label> <br><hr>
+              <label for="" class="setting-label">Дата рождения</label><input type="date" class="setting-text"><br><hr>
+            </div>
+            <div id="section2" class="bg-warning setting"> 
+              <h3>Personalization</h3><hr>
+              <label class="setting-label">Цвет</label>
+              <div class="color" id="red" onclick="red()"></div>
+              <div class="color" id="blue" onclick="blue()"></div>
+              <div class="color" id="green" onclick="green()"></div>
+              <div class="color" id="purple" onclick="purple()"></div>
+              <div class="color" id="yelow" onclick="yelow()"></div>
+            </div>        
+          </div>
+        </div>
+      </div>
+      <!--Здесь ничего не работает:с-->
+</div>
+</body>
